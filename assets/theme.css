@@ -11,6 +11,14 @@
     max-width: 360px;
     width: 90%;
   }
+    .site__pagination {
+      align-items: baseline;
+      display: flex;
+      justify-content: space-around;
+    }
+      .site__pagination .post__btn {
+        margin: 1ch;
+      }
   .site__footer {
     font-size: 80%;
     padding: 2ch 0;
@@ -187,6 +195,14 @@
       .post__btn--buy:focus {
         background: #c94;
       }
+    .post__btn--no-link {
+      color: #99a;
+    }
+      .post__btn--no-link:hover,
+      .post__btn--no-link:focus {
+        background: none;
+        border-color:#99a;
+      }
   .post__content {
     color: #445;
     font: 80% Libre Baskerville, serif;
@@ -198,6 +214,17 @@
       border: 1px solid #99a;
       padding: 4ch 4ch;
     }
+    .post__content hr {
+      border: none;
+      padding: 4ch 0;
+    }
+      .post__content hr:after {
+        content: "* * *";
+        display: block;
+        position: relative;
+        text-align: center;
+        top: -1ch;
+      }
 
 #disqus_thread p,
 #disqus_thread a {

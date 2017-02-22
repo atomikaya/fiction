@@ -7,15 +7,23 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://atomikaya.github.io"
 permalink: /stories/:categories/
 
-email: atomikaya@gmail.com
-twitter_username: ""
-github_username:  atomikaya
+paginate: 8
+paginate_path: /:num/
+
+follow:
+#  patreon:
+- label: Wattpad
+  url: http://wattpad.com/user/atomikaya
+#  webtoon:
+- label: Atom feed
+  url: /feed.xml
 
 # Build settings
 markdown: kramdown
 # theme: minima
 gems:
   - jekyll-feed
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock

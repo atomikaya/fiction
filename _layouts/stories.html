@@ -16,7 +16,7 @@ layout: default
       </p>
       <p>{{ story.summary }}</p>
       <p>
-        {{ chaps | size }} chapters, updated on {{ lastChap.date | date_to_string }}.
+        Around {{ chaps | map: "content" | join: " " | number_of_words }} words in {{ chaps | size }} chapters, updated on {{ lastChap.date | date_to_string }}.
       </p>
       <a href="{{ firstChap.url }}#header" class="post__btn">Start reading <i class="icon-go"></i></a>
     </div>

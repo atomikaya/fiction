@@ -1,18 +1,5 @@
-<menu class="follow__menu">
-  <a href="#" class="follow__item">
-    <i class="icon-cc-by"></i>
-    <span class="follow__label">Patreon</span>
-  </a>
-  <a href="#" class="follow__item">
-    <i class="icon-cc-by"></i>
-    <span class="follow__label">Wattpad</span>
-  </a>
-  <a href="#" class="follow__item">
-    <i class="icon-cc-by"></i>
-    <span class="follow__label">Webtoon</span>
-  </a>
-  <a href="#" class="follow__item">
-    <i class="icon-cc-by"></i>
-    <span class="follow__label">Atom feed</span>
-  </a>
+<menu class="follow__menu">{% for link in site.follow %}
+  <a href="{{ link.url }}" class="follow__item">
+    <span class="follow__label">{{ link.label }}</span>
+  </a>{% endfor %}
 </menu>
