@@ -1,0 +1,323 @@
+.site {
+  background: #bbc;
+  color: #223;
+  font: 100% Montserrat, sans-serif;
+  font-weight: 300;
+}
+  .site__header,
+  .site__main,
+  .site__footer {
+    margin: auto;
+    max-width: 360px;
+    width: 90%;
+  }
+  .site__footer {
+    font-size: 80%;
+    padding: 2ch 0;
+    text-align: center;
+  }
+    .site__footer a {
+      color: inherit;
+    }
+  .site__side {
+    padding-top: 4ch;
+  }
+
+.card__link {
+  color: inherit;
+  display: block;
+  text-decoration: none;
+}
+  .card__link:hover,
+  .card__link:focus {
+    outline: none;
+    text-decoration: underline;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    padding: 4ch 0 1ch;
+  }
+    .card__badge {
+      background: #dde;
+      border-radius: 50%;
+      box-shadow: 0 0 5px #223;
+      display: block;
+      height: 80px;
+      margin: 1ch 1ch 0;
+      padding: 4px;
+    }
+      .card__name {
+        font: 220% Roboto Slab, serif;
+        font-weight: 100;
+        margin: 1ch 0 0;
+      }
+      .card__desc {
+        font: italic 110% Libre Baskerville, serif;
+        margin-top: 0;
+        padding-left: 1ch;
+      }
+
+.follow__menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 2ch 0;
+}
+  .follow__item {
+    color: inherit;
+    font: 90% Montserrat, sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+    .follow__item:hover,
+    .follow__item:focus {
+      outline: none;
+      text-decoration: underline;
+    }
+    .follow__label {
+      display: none;
+    }
+
+.tabs {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -1px;
+}
+  .tabs__item {
+    border: 1px solid #99a;
+    border-width: 0 0 1px;
+    color: #445;
+    font: 115% Montserrat, serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 1.5ch 2ch 1ch;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+    .tabs__item:hover,
+    .tabs__item:focus {
+      background: #ccd;
+      outline: none;
+    }
+    .tabs__item--active,
+    .tabs__item--active:hover,
+    .tabs__item--active:focus {
+      background: #dde;
+      border-bottom-color: #dde;
+      z-index: 1;
+    }
+
+.post__list {
+}
+  .post__item {
+    background: #dde;
+    border: 1px solid #99a;
+    margin-bottom: -1px;
+    padding: 2ch;
+  }
+    .post__item.post__item--news {
+      background: #eef;
+      margin: 4ch 0;
+    }
+  .post__title {
+    font: 130% Roboto Slab, serif;
+    margin: 0;
+    text-align: center;
+  }
+  .post__cover {
+    border: 1px solid #223;
+    border-width: 1px 1px 5px;
+    display: block;
+    height: 100px;
+    margin: 1.5ch auto;
+  }
+  .post__label,
+  .post__btn {
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 1ch 1ch 0;
+  }
+  .post__label {
+    background: #bbc;
+    padding: .5ch;
+    padding-right: 1.5ch;
+    text-transform: capitalize;
+  }
+    .post__label--completed {
+      background: #5a8;
+    }
+    .post__label--new {
+      background: #eef;
+    }
+    .post__label--news {
+      background: #ccd;
+    }
+    .post__label--ongoing {
+      background: #59b;
+    }
+    .post__label--published {
+      background: #b84;
+      border-bottom: 2px solid #851;
+    }
+    .post__label--revision {
+      background: #d66;
+    }
+  .post__btn {
+    border: 1px solid #99a;
+    color: inherit;
+    display: block;
+    padding: 1ch 2ch;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+    .post__btn:hover,
+    .post__btn:focus {
+      background: #eef;
+      outline: none;
+    }
+    .post__btn--buy {
+      background: #b84;
+      border-color: #851;
+    }
+      .post__btn--buy:hover,
+      .post__btn--buy:focus {
+        background: #c94;
+      }
+  .post__content {
+    color: #445;
+    font: 80% Libre Baskerville, serif;
+    line-height: 3ch;
+    padding: 2ch 0;
+  }
+    .post__content--full {
+      background: #eef;
+      border: 1px solid #99a;
+      padding: 4ch 4ch;
+    }
+
+#disqus_thread p,
+#disqus_thread a {
+  color: inherit;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .site__header,
+  .site__main,
+  .site__footer {
+    max-width: none;
+    width: 600px;
+  }
+
+  .follow__label {
+    display: inline;
+  }
+
+  .tabs {
+    align-items: baseline;
+    flex-direction: row;
+  }
+    .tabs__item {
+      border-width: 1px 1px 1px 0;
+    }
+      .tabs__item:first-child {
+        border-left-width: 1px;
+        border-top-left-radius: 5px;
+      }
+      .tabs__item:last-child {
+        border-top-right-radius: 5px;
+      }
+      .tabs__item--active,
+      .tabs__item--active:hover,
+      .tabs__item--active:focus {
+        background: #dde;
+        border-bottom-color: #dde;
+        z-index: 1;
+      }
+
+  .post__item {
+    display: flex;
+  }
+  .post__title {
+    font-size: 180%;
+    font-weight: 100;
+    text-align: left;
+  }
+  .post__cover {
+    height: 160px;
+    margin: 1.5ch 2ch 0 0;
+  }
+  .post__btn {
+    display: inline-block;
+    text-align: left;
+  }
+  .post__content {
+    font-size: 100%;
+    padding: 2ch 1ch;
+  }
+  .post__content--full {
+    padding: 4ch 6ch;
+  }
+}
+
+.toc {
+  background: #dde;
+  border: 1px solid #99a;
+  padding: 2ch 2ch 0;
+}
+  .toc__header {
+    font: 90% Montserrat, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .toc__list {
+    list-style: none;
+    margin: 0;
+    padding: 2ch 0 0;
+  }
+    .toc__item {
+      border: 1px solid #99a;
+      border-width: 1px 0 0;
+      color: inherit;
+      display: block;
+      padding: 2ch 0;
+      text-decoration: none;
+    }
+      .toc__item:hover,
+      .toc__item:focus {
+        text-decoration: underline;
+      }
+    .toc__item--active {
+      font-weight: 500;
+    }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .site__main {
+    position: relative;
+  }
+    .site__side {
+      padding-top: 0;
+      position: absolute;
+      top: 0;
+      width: 150px;
+    }
+    .follow--side {
+      right: -185px;
+    }
+      .follow__menu {
+        flex-direction: column;
+        margin: 0;
+      }
+        .follow__item {
+          padding: 1ch 0;
+        }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }

@@ -1,0 +1,21 @@
+#Site variables
+title: atomikaya creates fiction.
+logo: assets/logo.png
+description: > # this means to ignore newlines until "baseurl:"
+  English & french writer, I come here to improve my writing and my regularity.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://atomikaya.github.io"
+permalink: /stories/:categories/
+
+email: atomikaya@gmail.com
+twitter_username: ""
+github_username:  atomikaya
+
+# Build settings
+markdown: kramdown
+# theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
