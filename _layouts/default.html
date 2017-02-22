@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <title>{{ site.title }}</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300|Libre+Baskerville|Montserrat:300" rel="stylesheet"/>
+    <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300|Libre+Baskerville|Montserrat:300,500" rel="stylesheet"/>
     <link rel="stylesheet" href="/assets/fontello/css/fontello-embedded.css"/>
     <link rel="stylesheet" href="/assets/normalize.css"/>
     <link rel="stylesheet" href="/assets/theme.css"/>
@@ -24,33 +25,13 @@
         <h1 class="tabs__item tabs__item--active">Latest activity</h1>{% else %}
         <a href="/" class="tabs__item">Latest activity</a>{% endif %}{% if page.path == "stories.md" %}
         <h1 class="tabs__item tabs__item--active">Story list</h1>{% else %}
-        <a href="/stories/" class="tabs__item">Story list</a>{% endif %}{% if page.path == "about.md" %}
+        <a href="/stories/" class="tabs__item">Stories</a>{% endif %}{% if page.path == "about.md" %}
         <h1 class="tabs__item tabs__item--active">About me</h1>{% else %}
         <a href="/about/" class="tabs__item">About me</a>{% endif %}
       </nav>
     </div>
     <main class="site__main">
       {{ content }}
-      <div class="follow site__side follow--side">
-        <menu class="follow__menu">
-          <a href="#" class="follow__item">
-            <i class="icon-cc-by"></i>
-            <span class="follow__label">Patreon</span>
-          </a>
-          <a href="#" class="follow__item">
-            <i class="icon-cc-by"></i>
-            <span class="follow__label">Wattpad</span>
-          </a>
-          <a href="#" class="follow__item">
-            <i class="icon-cc-by"></i>
-            <span class="follow__label">Webtoon</span>
-          </a>
-          <a href="#" class="follow__item">
-            <i class="icon-cc-by"></i>
-            <span class="follow__label">Atom feed</span>
-          </a>
-        </menu>
-      </div>
     </main>
     <div class="site__footer">
       <p>All of this website's content is released under the <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons license<i class="icon-cc"></i><i class="icon-cc-by"></i><i class="icon-cc-nc"></i><i class="icon-sa"></i></a>.</p>

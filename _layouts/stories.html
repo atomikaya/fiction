@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="post__list">{% for story in site.data.stories %}
+  {% assign chaps = site.posts | where: "story", story.url %}
+  {% assign firstChap = chaps | last %}
+  {% assign lastChap = chaps | first %}
+  <div class="post__item">
+    <img src="/assets/covers/{{ story.cover }}" alt="{{ story.title }} cover" class="post__cover">
+    <div class="post__text">
+      <h2 class="post__title">
+        {{ story.title }}
+      </h2>
+      <p>
+        <span class="post__label post__label--{{ story.status }}"><i class="icon-{{ story.status }}"></i> {{ story.status }} {{ story.medium }}</span>
+      </p>
+      <p>{{ story.summary }}</p>
+      <p>
+        {{ chaps | size }} chapters, updated on {{ lastChap.date | date_to_string }}.
+      </p>
+      <a href="{{ firstChap.url }}#header" class="post__btn">Start reading <i class="icon-go"></i></a>
+    </div>
+  </div>{% endfor %}
+</div>
+<div class="follow site__side follow--side">
+  {% include follow-menu.html %}
+</div>

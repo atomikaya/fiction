@@ -1,14 +1,10 @@
-cock-a-doodle-doom:
-  title: Cock-a-Doodle-Doom
+- title: Cock-a-Doodle-Doom
   url: cock-a-doodle-doom
   medium: novel
   cover: cadd.png
   summary: |
     Deb has found a job after years of bumming around, and a night of lone drinking ends at a beautiful woman's home... Has her luck turned around? Or is this suddenly... A paranormal story?
   status: ongoing
-  started: 2017-01-01
-  updated: 2017-02-15
-  webLength: 27
   # bookLength: 162
   # previewLength: 5
   # luluLink: -

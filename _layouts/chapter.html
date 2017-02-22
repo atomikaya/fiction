@@ -1,61 +1,40 @@
 ---
 layout: default
 ---
-<div class="post__details">
+{% assign story = site.data.stories | where: "url", page.story | first %}
+<div id="header" class="post__details">
   <div class="post__item">
-    <img src="/assets/covers/cadd.png" alt="" class="post__cover">
+    <img src="/assets/covers/{{ story.cover }}" alt="{{ story.title }} cover" class="post__cover">
     <div class="post__text">
       <h2 class="post__title">
-        Cock-a-Doodle-Doom #8: Cackling
+        {{ story.title }} #{{ page.number }}: {{ page.title }}
       </h2>
-      <p>The 17th February, 9:30 p.m.</p>
-      <p><span class="post__label post__label--ongoing"><i class="icon-ongoing"></i> Ongoing novel</span><span class="post__label post__label--new"><i class="icon-new"></i> New chapter</span></p>
+      <p>on {{ page.date | date_to_string }}.</p>
+      <p>
+        <span class="post__label post__label--{{ story.status }}"><i class="icon-{{ story.status }}"></i> {{ story.status }} {{ story.medium }}</span>{% if story.status != "published" %}{% if page.version > 0 %}<span class="post__label post__label--revision"><i class="icon-revision"></i> revision #{{ page.version }}</span>{% else %}<span class="post__label post__label--new"><i class="icon-new"></i> new chapter</span>{% endif %}{% endif %}
+      </p>
     </div>
   </div>
   <div class="post__content post__content--full">
     {{ content }}
   </div>
 </div>
-      <div class="follow site__side follow--side">
-        <div class="toc">
-          <h3 class="toc__header">Table of contents</h3>
-          <ul class="toc__list">
-            <li><a href="#" class="toc__item">#1: Chicken and Egg Situation</a></li>
-            <li><a href="#" class="toc__item">#2: Empty Nest Syndrome</a></li>
-            <li><a href="#" class="toc__item">#3: Over Easy</a></li>
-            <li><a href="#" class="toc__item toc__item--active">#4: Like a Banty on a June Bug</a></li>
-          </ul>
-        </div>
-        <menu class="follow__menu">
-          <a href="#" class="follow__item">
-            <i class="icon-cc-by"></i>
-            <span class="follow__label">Patreon</span>
-          </a>
-          <a href="#" class="follow__item">
-            <i class="icon-cc-by"></i>
-            <span class="follow__label">Wattpad</span>
-          </a>
-          <a href="#" class="follow__item">
-            <i class="icon-cc-by"></i>
-            <span class="follow__label">Webtoon</span>
-          </a>
-          <a href="#" class="follow__item">
-            <i class="icon-cc-by"></i>
-            <span class="follow__label">Atom feed</span>
-          </a>
-        </menu>
-      </div>
-      <div id="disqus_thread"></div>
+<div class="follow site__side follow--side">
+  <div class="toc">
+    <h3 class="toc__header">Table of contents</h3>
+    <ul class="toc__list">{% assign chaps = site.posts | where: "story", page.story | sort: 'date', 'first' %}{% for chap in chaps %}
+      <li><a href="{{ chap.url }}#header" class="toc__item{% if chap.url == page.url %} toc__item--active{% endif %}">#{{ chap.number }}: {{ chap.title }}</a></li>{% endfor %}
+    </ul>
+  </div>
+  {% include follow-menu.html %}
+</div>
+<div id="disqus_thread"></div>
 <script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-
 var disqus_config = function () {
-this.page.url = 'http://example.com/cadd#8';
-this.page.identifier = 'cadd#8';
-this.page.title = 'Cock-a-Doodle-Doom #8: Cackling';
+this.page.url = '{{ site.url }}{{ page.url }}';
+this.page.identifier = '{{ page.id }}';
+this.page.title = '{{ site.data.stories[page.story].title }} #{{ page.number }}: {{ page.title }}';
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE
@@ -66,9 +45,3 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </main>
-    <div class="site__footer">
-      <p>All of this website's content is released under the <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons license<i class="icon-cc"></i><i class="icon-cc-by"></i><i class="icon-cc-nc"></i><i class="icon-sa"></i></a>.</p>
-    </div>
-  </body>
-</html>

@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Story list
+layout: stories
+title: Stories
 permalink: /stories/
 ---
-stories
