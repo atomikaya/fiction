@@ -320,4 +320,10 @@
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+@media (min-width: 1200px) {
+  .site__header,
+  .site__main,
+  .site__footer {
+    width: 800px;
+  }
+}
