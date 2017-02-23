@@ -1,0 +1,88 @@
+---
+story: cock-a-doodle-doom
+number: 2
+title: Empty Nest Syndrome
+
+date: 2017-01-04
+version: 0
+
+layout: chapter
+categories: cock-a-doodle-doom 2
+---
+After a second of blank, panicked stare, I rush towards Tig and receive her while she folds in my arms.
+
+“Everyone always leaves me!” she says, sobbing in my shirt. Between her scratched up hands and dripping snot, I honestly think it's a goner. What we wouldn't do for friends.
+
+I comfort her the best I can, but the priority is to have her let go of the broken pieces of the teapot. She's done enough in the way of self-harm already. I gently take her to the bathroom and make her rest on the toilet seat while I look for something to spray her wounds with. Luckily they look mostly superficial.
+
+“OK, love, just wait a bit,” I say. I open the cabinet and find what I need, along with bandages and a good supply of anxiolytics. Wow, that *would* explain a lot of things. “It's gonna be alright, Tig. Just show me your hands.”
+
+“I'm sorry,” says Tegan. “I have been seriously messed up these days, and I just… I blurt things out and I panic and it all goes to hell. Leon is gonna be so worried again!”
+
+I stop bandaging for a moment. What? “Didn't you say he sort of… left you?” I say, trying hard not to trigger another meltdown.
+
+Tig attempts wiping her teary face with her forearms. “Well, I mean… He doesn't have much time these days with the full-time job and all… And I sort of forgot my pills because I was feeling alright with you…” She starts crying again, and I just give her a big wet hug.
+
+OK, Tig, let's take those pills soon.
+
+When she's all patched up I get her to bed with a healthy dose of medication. Her room, darkened by the remains of the storm, sports an old flowery wallpaper in shades of red and brown. Rummaging in the bedside table, she hands me over the 100 bucks and change I asked for. Well, I feel guilty about it now, but I'm not gonna say no. Soon, she falls asleep while holding on my hand. I watch over her pale face, her puffy red eyelids, then she turns around and buries herself in the white-ish pillow. I should get going if I want to visit the bike shop. I have mixed feelings about leaving her alone.
+
+It could be time to call Rodrigo, now that I've been *funded*. I silently drift over to the next room, phone on my ear.
+
+“Hey man, you available?” I say.
+
+There is a heavy whirring in the background, and mechanical clicks at regular intervals. “I'm working, Deb,” he says.
+
+“All right. Well, it's about that opening you were talking about. I got wheels, and I'm willing,” I say.
+
+“Feeling the heat at home already?” he says. I hear the sarcasm, buddy. I'm cool. I'm just gonna let that one go.
+
+“A few weeks at my parent's is all I can take. So, are we good?”, I say. There's a bit of static on the line and the background noise is not getting any quieter. “Meet me at the factory at 7 a.m. tomorrow,” he says, “and we'll get you started”.
+
+I frown slightly. The bike is not exactly in my hands *yet*. “That's… fast. Don't you have to check with a manager or something?”
+
+“We are short on hands and we have a big delivery coming up. Come tomorrow, or don't. Take your pick! I gotta go,” he says before cutting the line. Damn, that man is fast.
+
+Rodrigo. I went to school with Toni, his little brother. Even then Rodrigo was the kind of unflinching, no-bullshit guy that would still come and help you out in a pinch. If you asked nicely. Without him, I probably would have a hard time finding a job in Brooding Peaks: the economy isn't particularly striving. Apart from the HappyBroiler factory workers, most people take the intercity bus down the mountain every day. Speaking of which, it's more than time I go get a bike unless I want to get up at 5 every morning.
+
+I might actually make it, because I just heard Leon's motorcycle outside. He can take over. I fill him in quickly and he takes my spot beside the bed. Better grab a book, too. She's a heavy sleeper even without the meds.
+
+I pull him away from the room for a moment. “Leon, what's going on with her?” I say. “That was definitely not the Tig I know.”
+
+Leon is a rather nice guy. The kind of person who warms a home in a gentle way: scruffy beard, handmade knits, a general outdoorsy feeling. He's shy when it comes to talking about serious shit, though.
+
+“She's been having issues the last… few months?” he says. “You know, she's always been more anxious than she looks, and she's been doing a lot of odd jobs that didn't work out… Plus Karl and Ana, the other two, have been rather absent these days. So she's basically lonely and whenever anxiety rises she has to take the day off and try not to pull of weird stuff. I'm not sure it makes anything better.”
+
+He runs a hand across his cheekbone, uneasy. “Honestly, I'm not sure what *I* can do for her either.”
+
+“Be there, I guess?” I say. I haven't given this a lot of thought, but “people care” seems like the right move. That, and I have a feeling we all tend to dance around the idea of medical care because it make things *way more serious*. Anyway, I'm pretty bad at giving good friendly advice. The best I can do is to give Leon a compassionate pat on the shoulder before I go.
+
+***
+
+I usually don't take the bus. It's slow, it goes by many paces I don't care about and I don't like paying tickets. Today though, it's 6 p.m. already and I'm guessing it closes at 7 tops. Come on! If I start my shifts without a bicycle I'm not gonna have any time left to buy one. I pray on a loop so that I will still have time to look around and it will still be open and there will still be a cheap bike and and and.
+
+Outside the bus window, the last buildings disappear to form the Caldito river bank. On the opposite shore, the city is capped by the three peaks of the Brooding Range, like a crown set askew. Night is falling quickly now, as the sun has set behind the mountaintops. At the bottom on the farthest peak, I can see the lights of the factory turning on. This job is gonna take quite a lot of pedaling.
+
+One way or another, my prayer is answered: the cycle shop is still open. I internally let out a scream of victory and do a little mind-dance. The way the shop owner looks at me spells a different mood. His face is so saying “IT'S CLOSING TIME”.
+
+I wade through the rows of mountain bikes and various accessories. Behold! The same nice second-hand bike that I saw the other day is waiting for me. I swear I almost saw it wink my way.
+
+The bike is a dark blue city model with three speeds and an apparently new chain. It's perfect and I can afford it. Usually you can cycle around the block with them before buying, but as the vendor says it's getting a little late for that. I'll have to trust them on maintenance.
+
+I come out of the shop with my brand not-new bike, clip-on electric lights and a lock cable. I also have enough left of Tig's money for a few drinks, so really, why not?
+
+***
+
+It's the end of the afternoon shift in HappyBroilers' locker-rooms. Rodrigo and another seven guys pile up their white coveralls in the laundry trolley basket. The smell will stay on them, though.
+
+One of them, sitting on the 1-foot wide bench, hails Rodrigo. “I heard we got a newbie tomorrow? Someone you know?”
+
+“Yeah,” he says. He scrubs grime off his security shoes with a hard brush.
+
+“It's good,” says another one, “because we need more people down there.”
+
+A third worker, strangely rigid, is holding his locker door. “Yeah, we need more people.”
+
+All of them have stopped in their tracks now. Empty-face, they repeat: “We need… *more people*.”
+
+Rodrigo is scrubbing really hard, but his shoes have been clean for a long while now…
