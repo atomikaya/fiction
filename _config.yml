@@ -21,6 +21,7 @@ follow:
 # Build settings
 markdown: kramdown
 # theme: minima
+safe: true
 gems:
   - jekyll-feed
   - jekyll-paginate
