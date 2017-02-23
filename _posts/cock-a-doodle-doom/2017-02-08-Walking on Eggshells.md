@@ -1,0 +1,92 @@
+---
+story: cock-a-doodle-doom
+number: 7
+title: Walking on Eggshells
+
+date: 2017-02-08
+version: 0
+
+layout: chapter
+categories: cock-a-doodle-doom 7
+---
+I look at the dark grey cloud that's spreading right over my head.
+
+*Great*. I'd better get in before the rain and hail start pummeling the earth again. Entering the factory without ringing the intercom first gives me this nagging feeling, like I'm gonna get called out and scolded. That's just me, a good child in all the situations where it doesn't matter.
+
+The factory really looks empty from the outside. Wierd. When I get closer to the buildings, I start hearing mechanical noises and a low thumping. A mechanical heart beating. Right now, that's pretty reassuring. The eerie silence I heard at first had me thinking biochemical hazard or alien abduction.
+
+I walk to the administration bulding. It's a sheet metal rectangle with a tiny door and a giant HappyBroiler ad on the side. The building looks buried in brown dust and gravel, like the rest of the site.
+
+Spreading behind it, there is a large two-story unit labeled “Processing”. A shed beside it has pipes running towards every part of the factory I can see. Ventilation, probably.
+
+Behind all that, the factory stretches out of sight. I see silos poking their heads through, narrow buildings lined with fans on the plastic fence windows, covered parking areas for the forklifts, storage units with loading zones for delivery. Am I gonna need a map?
+
+I push the door of the administration building. The reception desk is, again, empty. Are companies supposed to be like this? Maybe they don't get that many visitors.
+
+I heard someone clearing his throat right behind me. I avoid screaming this time. I had enough with the Nathan surprise last night.
+
+It's a very short man with a flapping cheeks like a bulldog. He's dressed in a tiny suit, holding a pile of documents.
+
+“What can I do for you?” he asks in a tone of voice that says *get out* more than anything.
+
+“Oh,” I say, “I come on behalf of Rodrigo Xapa, he told me there was a… position available?” Maybe if I don't tell *him* I'm late, he won't notice.
+
+The man goes around the counter and drops his documents in a neat stack. “New worker, huh? You're gonna need to fill in this contract… Name on the first page, initials and signature at the bottom of every page, don't forget read and approved on the last one.” He sounds like he has made this speech a thousand times. Given the size of the factory and the turnover rate, it's not that unlikely.
+
+I attempt reading through it at first but there is not much in the document I understand. I'll have to ask Rodrigo about the specifics, if he's not too mad at me to answer. I should go find him as soon as possible.
+
+“I'm also gonna need a proof of identity and residence,” says the man.
+
+I flip through the contents of my pouch. “Is my ID enough?”
+
+“I will also need a proof of residence, please register it within a week.” What a robot. There isn't a trace of life in the way he talks. I'm almost looking for the puppet strings.
+
+“Sure, within a week,” I say. “Oh, could you tell me where Rodrigo… Mr. Xapa is? I should probably warn him that I have taken the job.” More like apologise.
+
+The man taps on the keyboard, not even looking at me. “Mr. Xapa called in sick this morning. Ms. Suey is gonna be in charge of directing you to your station and give you the necessary warnings and instructions.”
+
+“Oh, OK,” I say. Rodrigo called in sick but he didn't call me? He must have been messed up, because that's not like him at all.
+
+I walk towards the door to wait on that Ms. Suey. I'd rather be outside than trying to make small talk with the tiny human robot. Then I remember I left my bike at the fence.
+
+“Excuse me,” I say, turning around. I just want to ask if there is a bicycle parking area or something, but the little man is already gone.
+
+Ms. Suey is already waiting in front of the administration building. She's a middle-aged lady with yellow overalls and a matching cap, looking as out-of-mind bored as the contract man was. She gives me a quick nod and starts walking away at a fast pace. I guess we're not gonna be best friends right away. Anyway, the bike will have to stay where it is. *Be safe out there*.
+
+First we start with a building just left of the processing unit where I have to change into the same kind of glamorous uniform Ms. Suey is sporting. I get a locker and a little key. It's like a water park, without the fun.
+
+As we walk further into the factory, from time to time I spot a little sign with a map of the buildings on it. I am relieved and worried at the same time: what kind of factory actually needs to rely on maps to avoid losing people?
+
+We walk though rows upon rows of these narrow buildings with plastic fences. They also make a pretty heavy use of fans. I can hear cackling along the buzzing noise. These must be the coops. I'm sorry, chicken, but I have to harden my heart for money.
+
+I'm pretty happy the yellow lady is speeding up now, because those clouds are growing heavier. I'd rather not get caught under another storm. At least my real clothes will be safe and dry. If this weather keeps on, I might have to think of a system so that I don't get drenched by cycling every day.
+
+We stop in front of a coop door, labeled “B17”, and we enter the building. It's smelly, it's grimy and mostly empty. There are rows of sprinklers that have been set aside, feeding trays piled together. The fans are off. Do we matter less than chicken do?
+
+An old guy is already waiting here, uniform open on a white tank top, smoking at a window.
+
+“You two are in charge of cleaning B17,” says Ms. Suey. “Mr. Possa here already knows what to do. Dave, get your ass over here.”
+
+“Aye aye,” says the old Dave, dropping his cigarette in bird poop and grinding it with his shoe. He addresses me a badly damaged smile. At least *he* looks a bit more alive than the others.
+
+“Hey,” I say.
+
+Dave laughs. “First day, huh?”
+
+ I smile. “Yeah. I have so many questions. Like, I wasn't even told when my shift ends. And is it usually this empty around here? I thought the factory employed, like, a hundred people or more.”
+
+ Dave raises a hand to stop me. “Too many questions. You should be careful. He doesn't like people who ask too many questions.”
+
+Now that I look at him closely, he's way less relaxed than he appeared at first. His hands are trembling and his left eye twitches from time to time. He lights another cigarette.
+
+I smile nervously. “What are you talking about?”
+
+Dave looks at me seriously, exhales some smoke. “You *do* know He's coming, right?”
+
+***
+
+**Happy Wednesday chapter! I'm excited that we have at long last entered the factory. This is the place. Maybe?**
+
+**Have fun reading, and please comment! I would really do good to the story to have some kind of feedback on the plot, characters, whatever.**
+
+**See ya Sunday!**
