@@ -14,7 +14,7 @@ layout: default
       <p>
         <span class="post__label post__label--{{ story.status }}"><i class="icon-{{ story.status }}"></i> {{ story.status }} {{ story.medium }}</span>
       </p>
-      <p>{{ story.summary }}</p>
+      <div>{{ story.summary | markdownify }}</div>
       <p>
         {% assign words = chaps | map: "content" | join: " " %}
         {% include word-count.html words = words %} in {{ chaps | size }} chapters, updated on {{ lastChap.date | date: "%b %d, %Y" }}.
