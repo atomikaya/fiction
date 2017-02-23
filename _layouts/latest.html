@@ -9,7 +9,7 @@ layout: default
       <h2 class="post__title">
         {{ story.title }} #{{ post.number }}: {{ post.title }}
       </h2>
-      <p>Around {{ post.content | number_of_words }} words on {{ post.date | date_to_string }}.</p>
+      <p>{% include word-count.html words = post.content %} words on {{ post.date | date: "%b %d, %Y" }}.</p>
       <p>
         <span class="post__label post__label--{{ story.status }}"><i class="icon-{{ story.status }}"></i> {{ story.status }} {{ story.medium }}</span>{% if story.status != "published" %}{% if post.version > 0 %}<span class="post__label post__label--revision"><i class="icon-revision"></i> revision #{{ post.version }}</span>{% else %}<span class="post__label post__label--new"><i class="icon-new"></i> new chapter</span>{% endif %}{% endif %}
       </p>
