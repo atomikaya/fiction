@@ -1,0 +1,82 @@
+---
+story: cock-a-doodle-doom
+number: 5
+title: You're Chicken!
+
+date: 2017-01-26
+version: 0
+
+layout: chapter
+categories: cock-a-doodle-doom 5
+---
+The moment Domenica casually lays her hand on me, the atmosphere changes, like I have stopped breathing and there are stars and fire circling around us. Maybe I *have* stopped breathing. Breathe.
+
+I raise my eyes to her face and it's close. Half-opened mouth, half-opened eyes, staring at my lips. If she's lost in me like I am in her, it's gonna take a while. So I catch the back of her neck in the palm of my hand and I pull her in. *Kiss me*.
+
+Her answer isn't made of words, still it spells “yes”. At first we are all lips, enjoying the warmth, the softness, the slightly sticky skin pressed together, set apart, joined again. Timidly, my tongue traces the exterior of her lower lip. Domenica may look like she's made of honey but she sure tastes like a woman.
+
+She reacts more strongly now, pulling me in tighter, holding my face, my back. I was going for a slow build-up, she just frenched me out of the blue. God is she warm. She sucks me in like I'm candy and I wish I was. Through the blur of my eyelids I have the pleasure of looking at her, so close, so intensely into us. It's overwhelming, exhilarating and cute at the same time. I widen the embrace a bit and start pecking at her face, a smile spreading across. I feel like giggling but that would require explanations I'm not in any mood to give.
+
+Her mouth comes after mine. I retreat, then go after her when she's not expecting it. She avoids me deftly while planting a kiss on my left cheek. It's turning into a bit of a skirmish.
+
+I take the advantage back by launching a tickle strike on her sides and from then on it's hands *on*. Her fingers trace along the seams of my shirt until they find a way under it, her palm resting on my navel. I guess I didn't foresee the implications of getting playfully touchy in that kind of context. Who cares, it's not like the slip-up is unwelcome.
+
+I knew it when I followed her back home, and I wanted it. I want this. I'm missed making out so much. While Domenica's busy exploring my belly area (not much to feel there), I gently bite her shoulder. It's so shallow it won't even leave a mark, still she shudders. Good.
+
+There is a kind of pause where she disentangles herself from me. As I look up to her, wondering if everything's all right, she just says: “Bedroom”. She takes my hand and leads me through doors and corners to a full bed that looks like a nest made out of comforters. Now I know where she gets her bounce.
+
+Swinging me around like we're dancing rock'n'roll, she lays me in the comforters and expertly gets my shirt off. Then against all expectations I cover myself shyly, almost flinching. What the fuck?
+
+Domenica stops and sits beside me. “Are you OK, Deb? Do you want me to go slow… I mean, do you want me to stop?”
+
+I'm blushing furiously. I'm so ashamed. What's wrong with me? Why do I have to spoil this perfect moment?
+
+“I'm OK, Domenica,” I say. “I… I really want this and I'm supposed to be ready, I mean, I'm no virgin…”
+
+Domenica smiles and comes resting beside me. “You could still have plenty of perfectly good reasons not to want this *right now*. You could even have no reason at all and still say no and it would be perfectly fine…”
+
+I swallow my feeling of guilt and worthlessness and attempt to smile. “I would have been fine with *not killing the mood* when I'm getting picked up by the most incredible woman I've met in a long while.”
+
+Domenica traces along my toes with a finger. “You didn't kill a thing,” she says. “There's a time for everything and now is not the time. I'm glad you realized this before you or me got hurt. Plus, we still have options.”
+
+I turn towards her. “What options do you have in mind?” I'm not sure if I am hopeful or worried I'll have to push her away again.
+
+“Would you like to sleep here with me tonight? I can promise no sex but I'd really enjoy the closeness, I think… If you're comfortable with it.”
+
+I think about it for a moment. I'm still disappointed about the sex being out of the picture, and sort of relieved at the same time. I might really enjoy *just* sleeping with her. I nod. “I think I want to,” I say. Still ashamed, I add: “Thanks for being so patient.”
+
+Domenica sends the remark away with a gesture of her hand. “This was just basic human decency. I expect no less from you. Should I?”
+
+I relax and smile at her. “I know. You're right. Cuddles?”
+
+“Cuddles.”
+
+***
+
+I must have dozed off pretty soon after Domenica shut the lights. I can feel her warmth on my back, her breathing motions a silent rhythm behind me. It's so peaceful here.
+
+I hear a low noise, like the sound of rain, or little steps? Maybe that's what woke me up. I think it's getting closer.
+
+It's definitely steps. In the corridor. Does she have a cat, or a dog? If so, why didn't it welcome us when we came in?
+
+Tip, tap, tip tap.
+
+It's in front of the bedroom door now. I think I can hear it breathing. Do dogs breath like this?
+
+There is a small squeaking sound. The door hinge.
+
+It's not a dog.
+
+Tip tap tap tap tap. Tap.
+
+It must be right in front of me now. I could probably touch it with my hand. As quietly as possible, I try to find the bedside lamp, then the cord switch.
+
+Then I turn the light on and I scream.
+
+***
+
+**OK, maybe not that steamy but I guess smut is gonna happen down the line. What do you think about this? I'm very happy to be able to talk about consent and what it all means in practice, it's a topic that is very dear to me.**
+
+**I still have no idea if I should rate my story "mature" or not, the boundaries between "making out" and "sex" feel pretty blurry to me. In any case, a positive depiction of consensual sex stopping short because someone's not ready seems like good sex ed, so I'm going with an everyone rating for now, please comment if you have thoughts about this.**
+
+**Love, and good night!**
