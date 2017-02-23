@@ -68,8 +68,9 @@
 
 .follow__menu {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  padding: 2ch 0;
+  padding: 0;
 }
   .follow__item {
     color: inherit;
@@ -82,9 +83,6 @@
     .follow__item:focus {
       outline: none;
       text-decoration: underline;
-    }
-    .follow__label {
-      display: none;
     }
 
 .tabs {
