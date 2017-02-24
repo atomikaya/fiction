@@ -11,7 +11,8 @@
     max-width: 360px;
     width: 90%;
   }
-    .site__pagination {
+    .site__pagination,
+    .site__share {
       align-items: baseline;
       display: flex;
       justify-content: space-around;
@@ -224,9 +225,31 @@
         top: -1ch;
       }
 
+/* style for third-party apps */
+
 #disqus_thread p,
 #disqus_thread a {
   color: inherit;
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }
 
 /* Small devices (tablets, 768px and up) */

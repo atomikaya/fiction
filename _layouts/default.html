@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{% if page.story %}{% assign story = site.data.stories | where: "url", page.story | first %}{{ story.title }} #{{ page.number }}: {% endif %}{{ page.title }} — {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300|Libre+Baskerville|Montserrat:300,500" rel="stylesheet"/>
     <link rel="stylesheet" href="/assets/fontello/css/fontello-embedded.css"/>
