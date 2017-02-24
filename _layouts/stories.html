@@ -17,7 +17,7 @@ layout: default
       <div>{{ story.summary | markdownify }}</div>
       <p>
         {% assign words = chaps | map: "content" | join: " " %}
-        {% include word-count.html words = words %} in {{ chaps | size }} chapters, updated on {{ lastChap.date | date: "%b %d, %Y" }}.
+        {% include word-count.html words = words %} words in {{ chaps | size }} chapters, updated on {{ lastChap.date | date: "%b %d, %Y" }}.
       </p>
       <a href="{{ firstChap.url }}#header" class="post__btn">Start reading <i class="icon-go"></i></a>
     </div>
