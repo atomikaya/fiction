@@ -22,7 +22,7 @@ layout: default
     {% else %}
     <span class="post__btn post__btn--no-link previous">previous chapter</span>
     {% endif %}
-    <span class="page_number">{{ page.number }} / {{ chaps | size }}</span>
+    <span class="site__page-number">{{ page.number }} / {{ chaps | size }}</span>
     {% if page.number < chaps.size %}
     <a href="/stories/{{ page.story }}/{{ page.number | plus: 1 }}/" class="post__btn next">next chapter</a>
     {% else %}
@@ -39,7 +39,7 @@ layout: default
   {% else %}
   <span class="post__btn post__btn--no-link previous">previous chapter</span>
   {% endif %}
-  <span class="page_number">{{ page.number }} / {{ chaps | size }}</span>
+  <span class="site__page-number">{{ page.number }} / {{ chaps | size }}</span>
   {% if page.number < chaps.size %}
   <a href="/stories/{{ page.story }}/{{ page.number | plus: 1 }}/" class="post__btn next">next chapter</a>
   {% else %}

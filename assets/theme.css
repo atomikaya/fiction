@@ -20,6 +20,9 @@
       .site__pagination .post__btn {
         margin: 1ch;
       }
+      .site__page-number {
+        display: none;
+      }
   .site__footer {
     font-size: 80%;
     padding: 2ch 0;
@@ -30,6 +33,7 @@
     }
   .site__side {
     padding-top: 4ch;
+    text-align: center;
   }
 
 .card__link {
@@ -261,6 +265,12 @@ ul.share-buttons .sr-only {
     max-width: none;
     width: 600px;
   }
+    .site__side {
+      text-align: inherit;
+    }
+    .site__page-number {
+      display: inline;
+    }
 
   .follow__label {
     display: inline;

@@ -23,7 +23,7 @@ layout: default
   {% else %}
   <span class="post__btn post__btn--no-link previous">newer</span>
   {% endif %}
-  <span class="page_number">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+  <span class="site__page-number">{{ paginator.page }} / {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
   <a href="{{ paginator.next_page_path }}" class="post__btn next">older</a>
   {% else %}
