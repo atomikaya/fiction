@@ -15,7 +15,7 @@ follow:
 - label: Wattpad
   url: http://wattpad.com/user/atomikaya
 #  webtoon:
-- label: Atom feed
+- label: My atom feed
   url: /feed.xml
 
 # Build settings
