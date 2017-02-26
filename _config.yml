@@ -18,6 +18,10 @@ follow:
 - label: My atom feed
   url: /feed.xml
 
+license:
+  title: "Attribution NonCommercial ShareAlike"
+  url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 # Build settings
 markdown: kramdown
 # theme: minima
