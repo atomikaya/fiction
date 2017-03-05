@@ -17,13 +17,6 @@
       display: flex;
       justify-content: space-around;
     }
-      .post__btn--nav {
-        margin: 1ch;
-      }
-        .post__btn--nav:hover,
-        .post__btn--nav:focus {
-          background: #ccd;
-        }
       .site__page-number {
         display: none;
       }
@@ -202,6 +195,13 @@
       .post__btn--buy:hover,
       .post__btn--buy:focus {
         background: #c94;
+      }
+    .post__btn--nav {
+      margin: 1ch;
+    }
+      .post__btn--nav:hover,
+      .post__btn--nav:focus {
+        background: #ccd;
       }
     .post__btn--no-link {
       color: #99a;
