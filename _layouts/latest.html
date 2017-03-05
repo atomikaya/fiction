@@ -19,15 +19,15 @@ layout: default
 </div>
 <div class="site__pagination">
   {% if paginator.previous_page %}
-  <a href="{{ paginator.previous_page_path }}" class="post__btn previous">newer</a>
+  <a href="{{ paginator.previous_page_path }}" class="post__btn post__btn--nav previous">newer</a>
   {% else %}
-  <span class="post__btn post__btn--no-link previous">newer</span>
+  <span class="post__btn post__btn--nav post__btn--no-link previous">newer</span>
   {% endif %}
   <span class="site__page-number">{{ paginator.page }} / {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-  <a href="{{ paginator.next_page_path }}" class="post__btn next">older</a>
+  <a href="{{ paginator.next_page_path }}" class="post__btn post__btn--nav next">older</a>
   {% else %}
-  <span class="post__btn post__btn--no-link next">older</span>
+  <span class="post__btn post__btn--nav post__btn--no-link next">older</span>
   {% endif %}
 </div>
 <div class="follow site__side follow--side">

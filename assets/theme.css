@@ -17,11 +17,11 @@
       display: flex;
       justify-content: space-around;
     }
-      .site__pagination .post__btn {
+      .post__btn--nav {
         margin: 1ch;
       }
-        .site__pagination .post__btn:hover,
-        .site__pagination .post__btn:focus {
+        .post__btn--nav:hover,
+        .post__btn--nav:focus {
           background: #ccd;
         }
       .site__page-number {

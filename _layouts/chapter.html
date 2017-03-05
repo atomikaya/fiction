@@ -18,15 +18,15 @@ layout: default
   </div>
   <div class="site__pagination">
     {% if page.number > 1 %}
-    <a href="/stories/{{ page.story }}/{{ page.number | minus: 1 }}/" class="post__btn previous">previous chapter</a>
+    <a href="/stories/{{ page.story }}/{{ page.number | minus: 1 }}/" class="post__btn post__btn--nav previous">previous chapter</a>
     {% else %}
-    <span class="post__btn post__btn--no-link previous">previous chapter</span>
+    <span class="post__btn post__btn--nav post__btn--no-link previous">previous chapter</span>
     {% endif %}
     <span class="site__page-number">{{ page.number }} / {{ chaps | size }}</span>
     {% if page.number < chaps.size %}
-    <a href="/stories/{{ page.story }}/{{ page.number | plus: 1 }}/" class="post__btn next">next chapter</a>
+    <a href="/stories/{{ page.story }}/{{ page.number | plus: 1 }}/" class="post__btn post__btn--nav next">next chapter</a>
     {% else %}
-    <span class="post__btn post__btn--no-link next">next chapter</span>
+    <span class="post__btn post__btn--nav post__btn--no-link next">next chapter</span>
     {% endif %}
   </div>
   <div class="post__content post__content--full">
@@ -35,15 +35,15 @@ layout: default
 </div>
 <div class="site__pagination">
   {% if page.number > 1 %}
-  <a href="/stories/{{ page.story }}/{{ page.number | minus: 1 }}/" class="post__btn previous">previous chapter</a>
+  <a href="/stories/{{ page.story }}/{{ page.number | minus: 1 }}/" class="post__btn post__btn--nav previous">previous chapter</a>
   {% else %}
-  <span class="post__btn post__btn--no-link previous">previous chapter</span>
+  <span class="post__btn post__btn--nav post__btn--no-link previous">previous chapter</span>
   {% endif %}
   <span class="site__page-number">{{ page.number }} / {{ chaps | size }}</span>
   {% if page.number < chaps.size %}
-  <a href="/stories/{{ page.story }}/{{ page.number | plus: 1 }}/" class="post__btn next">next chapter</a>
+  <a href="/stories/{{ page.story }}/{{ page.number | plus: 1 }}/" class="post__btn post__btn--nav next">next chapter</a>
   {% else %}
-  <span class="post__btn post__btn--no-link next">next chapter</span>
+  <span class="post__btn post__btn--nav post__btn--no-link next">next chapter</span>
   {% endif %}
 </div>
 <div class="follow site__side follow--side">
