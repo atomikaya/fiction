@@ -20,6 +20,10 @@
       .site__pagination .post__btn {
         margin: 1ch;
       }
+        .site__pagination .post__btn:hover,
+        .site__pagination .post__btn:focus {
+          background: #ccd;
+        }
       .site__page-number {
         display: none;
       }
