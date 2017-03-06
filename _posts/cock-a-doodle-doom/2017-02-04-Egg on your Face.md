@@ -1,7 +1,7 @@
 ---
 story: cock-a-doodle-doom
 number: 6
-title: Egg on your Face
+title: Egg on Your Face
 
 date: 2017-02-04
 version: 0
