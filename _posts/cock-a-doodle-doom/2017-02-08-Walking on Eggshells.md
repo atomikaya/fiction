@@ -13,7 +13,7 @@ I look at the dark grey cloud that's spreading right over my head.
 
 *Great*. I'd better get in before the rain and hail start pummeling the earth again. Entering the factory without ringing the intercom first gives me this nagging feeling, like I'm gonna get called out and scolded. That's just me, a good child in all the situations where it doesn't matter.
 
-The factory really looks empty from the outside. Wierd. When I get closer to the buildings, I start hearing mechanical noises and a low thumping. A mechanical heart beating. Right now, that's pretty reassuring. The eerie silence I heard at first had me thinking biochemical hazard or alien abduction.
+The factory really looks empty from the outside. Weird. When I get closer to the buildings, I start hearing mechanical noises and a low thumping. A mechanical heart beating. Right now, that's pretty reassuring. The eerie silence I heard at first had me thinking biochemical hazard or alien abduction.
 
 I walk to the administration bulding. It's a sheet metal rectangle with a tiny door and a giant HappyBroiler ad on the side. The building looks buried in brown dust and gravel, like the rest of the site.
 
