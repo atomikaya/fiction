@@ -17,6 +17,8 @@ Thanks for reading me!
 
 Well, I got two books in the writing, expect the first **complete drafts** of *Cock-a-Doodle-Doom* and *Over & Done with* to be done in the first semester of 2017.
 
+It's gotten tough because I suddenly have a job, but I'm hanging on!
+
 In the second semester, It's gonna be time to go back to comics with a story - possibly romance in a web format? I will also add a french section to write my first fantasy novel in french.
 
 I will take suggestions on what projects to pursue.
