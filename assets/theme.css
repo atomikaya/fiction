@@ -211,6 +211,12 @@
         background: none;
         border-color:#99a;
       }
+  .post__summary {
+    background: #dde;
+    border: 1px solid #99a;
+    border-bottom: none;
+    padding: 1ch 3ch;
+  }
   .post__content {
     color: #445;
     font: 80% Libre Baskerville, serif;
