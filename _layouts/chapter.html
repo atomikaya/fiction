@@ -23,6 +23,9 @@ layout: default
   <div class="post__content post__content--full">
     {{ content }}
   </div>
+  <div class="post__afterword">
+    {{ page.afterword | markdownify }}
+  </div>
   {% include chapter-pagination.html %}
 </div>
 <div class="follow site__side follow--side">

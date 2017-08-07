@@ -214,8 +214,17 @@
   .post__summary {
     background: #dde;
     border: 1px solid #99a;
-    border-bottom: none;
+    margin-bottom: 1ch;
     padding: 1ch 3ch;
+  }
+  .post__afterword {
+    background: #eef;
+    border: 1px solid #99a;
+    border-top: none;
+    font: 95% Libre Baskerville, serif;
+    line-height: 3ch;
+    padding: 1ch 3ch;
+
   }
   .post__content {
     color: #445;
