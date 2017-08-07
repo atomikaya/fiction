@@ -16,10 +16,11 @@ layout: default
       </p>
     </div>
   </div>
-  {% include chapter-pagination.html %}
   <div class="post__summary">
     <p>{{ page.summary }}</p>
+    <a class="post__btn" href="/stories/{{ story.url }}">More about the story</a>
   </div>
+  {% include chapter-pagination.html %}
   <div class="post__content post__content--full">
     {{ content }}
   </div>
