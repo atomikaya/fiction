@@ -14,6 +14,7 @@ layout: default
         <span class="post__label post__label--{{ story.status }}"><i class="icon-{{ story.status }}"></i> {{ story.status }} {{ story.medium }}</span>{% if story.status != "published" %}{% if post.version > 0 %}<span class="post__label post__label--revision"><i class="icon-revision"></i> revision #{{ post.version }}</span>{% else %}<span class="post__label post__label--new"><i class="icon-new"></i> new chapter</span>{% endif %}{% endif %}
       </p>
       <a href="{{ post.url }}#header" class="post__btn">Read now <i class="icon-go"></i></a>
+      <a href="/stories/{{ story.url }}/#ch{{ post.number }}" class="post__btn">Chapter list</a>
     </div>
   </div>{% endfor %}
 </div>

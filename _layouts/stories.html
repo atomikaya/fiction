@@ -20,7 +20,7 @@ layout: default
         {% include word-count.html words = words %} words in {{ chaps | size }} chapters, updated on {{ lastChap.date | date: "%b %d, %Y" }}.
       </p>
       <a href="{{ firstChap.url }}#header" class="post__btn">Start reading <i class="icon-go"></i></a>
-      <a href="/stories/{{ story.url }}" class="post__btn">More about the story</a>
+      <a href="/stories/{{ story.url }}/#ch1" class="post__btn">Chapter list</a>
     </div>
   </div>{% endfor %}
 </div>

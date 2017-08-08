@@ -255,6 +255,9 @@
   .toc__list--standalone .toc__item {
     border-top: none;
   }
+    .toc__list--standalone :target {
+      background: #eef;
+    }
 
 /* style for third-party apps */
 

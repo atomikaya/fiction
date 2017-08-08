@@ -21,7 +21,7 @@ layout: default
     </div>
   </div>
   <ul class="toc__list toc__list--standalone">{% for chap in chaps %}
-    <li class="post__summary">
+    <li class="post__summary" id="ch{{ chap.number }}">
       <a href="{{ chap.url }}#header" class="toc__item">#{{ chap.number }}: {{ chap.title }}</a>
       <p>{{ chap.summary }}</p>
     </li>{% endfor %}
