@@ -248,6 +248,14 @@
         top: -1ch;
       }
 
+.toc__list.toc__list--standalone {
+  padding: 0;
+}
+  .toc__list--standalone .post__summary + .post__summary,
+  .toc__list--standalone .toc__item {
+    border-top: none;
+  }
+
 /* style for third-party apps */
 
 #disqus_thread p,
