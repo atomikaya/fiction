@@ -20,11 +20,15 @@ layout: default
       </p>
     </div>
   </div>
-  <ul class="toc__list toc__list--standalone">{% for chap in chaps %}
-    <li class="post__summary" id="ch{{ chap.number }}">
-      <a href="{{ chap.url }}#header" class="toc__item">#{{ chap.number }}: {{ chap.title }}</a>
-      <p>{{ chap.summary }}</p>
-    </li>{% endfor %}
+  <ul class="toc__list toc__list--standalone">
+    {% for chap in chaps %}
+      <li class="post__summary" id="ch{{ chap.number }}">
+        <a href="{{ chap.url }}#header" class="toc__item">
+          #{{ chap.number }}: {{ chap.title }}
+        </a>
+        {% if chap.summary %}<p>{{ chap.summary }}</p>{% endif %}
+      </li>
+    {% endfor %}
   </ul>
 </div>
 <div class="follow site__side follow--side">

@@ -14,19 +14,22 @@ layout: default
       <p>
         <span class="post__label post__label--{{ story.status }}"><i class="icon-{{ story.status }}"></i> {{ story.status }} {{ story.medium }}</span>{% if story.status != "published" %}{% if page.version > 0 %}<span class="post__label post__label--revision"><i class="icon-revision"></i> revision #{{ page.version }}</span>{% else %}<span class="post__label post__label--new"><i class="icon-new"></i> new chapter</span>{% endif %}{% endif %}
       </p>
+      {% if page.summary %}<p>{{ page.summary }}</p>{% endif %}
+      <a class="post__btn"
+        href="/stories/{{ story.url }}/#ch{{ page.number }}">
+        Chapter list
+      </a>
     </div>
-  </div>
-  <div class="post__summary">
-    <p>{{ page.summary }}</p>
-    <a class="post__btn" href="/stories/{{ story.url }}">More about the story</a>
   </div>
   {% include chapter-pagination.html %}
   <div class="post__content post__content--full">
     {{ content }}
   </div>
-  <div class="post__afterword">
-    {{ page.afterword | markdownify }}
-  </div>
+  {% if page.afterword %}
+    <div class="post__afterword">
+      {{ page.afterword | markdownify }}
+    </div>
+  {% endif %}
   {% include chapter-pagination.html %}
 </div>
 <div class="follow site__side follow--side">
