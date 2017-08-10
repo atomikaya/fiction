@@ -11,15 +11,9 @@
     max-width: 360px;
     width: 90%;
   }
-    .site__pagination,
-    .site__share {
-      align-items: baseline;
-      display: flex;
-      justify-content: space-around;
+    .site__page-number {
+      display: none;
     }
-      .site__page-number {
-        display: none;
-      }
   .site__footer {
     font-size: 80%;
     padding: 2ch 0;
@@ -178,6 +172,7 @@
     border: 1px solid #99a;
     color: inherit;
     display: block;
+    flex: 0;
     padding: 1ch 2ch;
     text-align: center;
     text-decoration: none;
@@ -211,19 +206,14 @@
         background: none;
         border-color:#99a;
       }
-  .post__summary {
+  .post__summary,
+  .post__afterword {
     background: #dde;
     border: 1px solid #99a;
     padding: 1ch 3ch;
   }
   .post__afterword {
-    background: #eef;
-    border: 1px solid #99a;
     border-top: none;
-    font: 95% Libre Baskerville, serif;
-    line-height: 3ch;
-    padding: 1ch 3ch;
-
   }
   .post__content {
     color: #445;
@@ -301,6 +291,12 @@ ul.share-buttons .sr-only {
     max-width: none;
     width: 600px;
   }
+    .site__pagination,
+    .site__share {
+      align-items: baseline;
+      display: flex;
+      justify-content: space-around;
+    }
     .site__side {
       text-align: inherit;
     }

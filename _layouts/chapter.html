@@ -17,10 +17,6 @@ layout: default
       {% if page.summary %}
         {{ page.summary | prepend: "*Previously:* " | markdownify }}
       {% endif %}
-      <a class="post__btn"
-        href="/stories/{{ story.url }}/#ch{{ page.number }}">
-        Chapter list
-      </a>
     </div>
   </div>
   {% include chapter-pagination.html %}
