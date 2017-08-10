@@ -8,6 +8,9 @@ version: 0
 
 layout: chapter
 categories: over-and-done-with 2
+
+summary: |
+  Andy, a professional killer and his teammate and driver Spanky have been shaken by their latest job, which did not go as expected.
 ---
 It was supposed to go like this: she was called Linda Dollahan and she had to die. Why, they did not need to know. As for the *how*, they were handed a comprehensive schedule of her time on the 24th, which left little in the way of surprises. They found the time at which she was to be home alone, daddy doing a night shift, the kids spending the week at granny's house, located the next town over.
 

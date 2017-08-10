@@ -8,6 +8,9 @@ version: 0
 
 layout: chapter
 categories: over-and-done-with 6
+
+summary: |
+  Andy finally snapped and wants out of the criminal life. Spanky agrees and wants them to make their getaway together.
 ---
 As it was *not a brilliant idea* to make a getaway with a car so easy to track down, they resolved to take a few more days to get everything ready and returned the vehicle to its usual parking spot. It was relatively easy, as they were not on the clock: as long as there were no phone calls, they could just go about their days.
 

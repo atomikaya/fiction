@@ -26,7 +26,9 @@ layout: default
         <a href="{{ chap.url }}#header" class="toc__item">
           #{{ chap.number }}: {{ chap.title }}
         </a>
-        {% if chap.summary %}<p>{{ chap.summary }}</p>{% endif %}
+        {% if chap.summary %}
+          {{ chap.summary | prepend: "*Previously:* " | markdownify }}
+        {% endif %}
       </li>
     {% endfor %}
   </ul>

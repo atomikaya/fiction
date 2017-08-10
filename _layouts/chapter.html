@@ -14,7 +14,9 @@ layout: default
       <p>
         <span class="post__label post__label--{{ story.status }}"><i class="icon-{{ story.status }}"></i> {{ story.status }} {{ story.medium }}</span>{% if story.status != "published" %}{% if page.version > 0 %}<span class="post__label post__label--revision"><i class="icon-revision"></i> revision #{{ page.version }}</span>{% else %}<span class="post__label post__label--new"><i class="icon-new"></i> new chapter</span>{% endif %}{% endif %}
       </p>
-      {% if page.summary %}<p>{{ page.summary }}</p>{% endif %}
+      {% if page.summary %}
+        {{ page.summary | prepend: "*Previously:* " | markdownify }}
+      {% endif %}
       <a class="post__btn"
         href="/stories/{{ story.url }}/#ch{{ page.number }}">
         Chapter list
@@ -33,12 +35,6 @@ layout: default
   {% include chapter-pagination.html %}
 </div>
 <div class="follow site__side follow--side">
-  <div class="toc">
-    <h3 class="toc__header">Table of contents</h3>
-    <ul class="toc__list">{% for chap in chaps %}
-      <li><a href="{{ chap.url }}#header" class="toc__item{% if chap.url == page.url %} toc__item--active{% endif %}">#{{ chap.number }}: {{ chap.title }}</a></li>{% endfor %}
-    </ul>
-  </div>
   {% include follow-menu.html %}
 </div>
 {% include share-buttons.html %}

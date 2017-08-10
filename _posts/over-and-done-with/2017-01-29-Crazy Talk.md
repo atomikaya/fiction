@@ -8,6 +8,9 @@ version: 0
 
 layout: chapter
 categories: over-and-done-with 5
+
+summary: |
+  Going from bad to worse, Andy and Spanky forgot they had a body in the trunk. They safely managed to bury it at last, but a voice comes forth. Were they not alone?
 ---
 The voice came from the old sun lounger. The blanket on top of it housed an elderly woman who sat up straight and smiled. She was wearing a handmade knit over a long flowery dress. She had quite obviously been watching them for while.
 

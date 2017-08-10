@@ -8,6 +8,9 @@ version: 0
 
 layout: chapter
 categories: over-and-done-with 3
+
+summary: |
+  In the aftermath of their last failure, the mobsters Andy and Spanky take a break to drink and talk.
 ---
 As the story played back in their heads again and again, it became apparent that Andy was getting a bit tipsy and Spanky seriously drunk. Andy, particularly, was discussing the “old way” with passion.
 

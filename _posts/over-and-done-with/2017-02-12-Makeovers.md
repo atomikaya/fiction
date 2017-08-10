@@ -8,6 +8,9 @@ version: 0
 
 layout: chapter
 categories: over-and-done-with 7
+
+summary: |
+  Andy and Spanky are on the run. Where should they go from here?
 ---
 They got coffee first thing in the morning. There was a coffee lounge at the end of a shopping mall, with a terrace and tacky faux-leather seats. The coffee was surprisingly not bad.
 
@@ -15,7 +18,7 @@ Spanky was still a bit out of it. It was 11 a.m. but he had been driving all nig
 
 “So,” he said, “where do you think we should be going, Spanky?”
 
-“Hm.” Spanky shoke himself awake. “I think I would enjoy Spain. That's what I've been thinking about. What about you?”
+“Hm.” Spanky shook himself awake. “I think I would enjoy Spain. That's what I've been thinking about. What about you?”
 
 The cocktail shot Andy had asked for was served and he drank it, bottoms up, next to the coffee.
 

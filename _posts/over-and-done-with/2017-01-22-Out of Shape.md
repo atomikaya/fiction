@@ -8,6 +8,9 @@ version: 0
 
 layout: chapter
 categories: over-and-done-with 4
+
+summary: |
+  After a failed job, professional mobsters Andy and Spanky drank themselves to sleep in their car, talking about how their lives led here.
 ---
 The sun was well over the horizon already when Andy woke up Spanky who was sleeping, weirdly curled up on the extended driver's seat, one foot on the wheel. Spanky looked pale and asked for a coke in a grating voice.
 
