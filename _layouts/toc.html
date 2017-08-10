@@ -27,7 +27,9 @@ layout: default
           #{{ chap.number }}: {{ chap.title }}
         </a>
         {% if chap.summary %}
-          {{ chap.summary | markdownify }}
+          <div class="toc__summary">
+            {{ chap.summary | markdownify }}
+          </div>
         {% endif %}
       </li>
     {% endfor %}

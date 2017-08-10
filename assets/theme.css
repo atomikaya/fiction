@@ -258,6 +258,13 @@
     .toc__list--standalone :target {
       background: #eef;
     }
+    .toc__list--standalone :target ~ li .toc__summary {
+      display: none;
+    }
+    .toc__list--standalone :target ~ li .toc__item:hover + .toc__summary,
+    .toc__list--standalone :target ~ li .toc__item:focus + .toc__summary {
+      display: block;
+    }
 
 /* style for third-party apps */
 
