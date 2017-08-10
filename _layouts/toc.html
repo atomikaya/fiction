@@ -27,7 +27,7 @@ layout: default
           #{{ chap.number }}: {{ chap.title }}
         </a>
         {% if chap.summary %}
-          {{ chap.summary | prepend: "*Previously:* " | markdownify }}
+          {{ chap.summary | markdownify }}
         {% endif %}
       </li>
     {% endfor %}
