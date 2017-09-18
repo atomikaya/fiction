@@ -13,8 +13,16 @@ layout: default
       </h2>
       <p>
         <span class="post__label post__label--{{ story.status }}"><i class="icon-{{ story.status }}"></i> {{ story.status }} {{ story.medium }}</span>
+
+        {% if story.status == 'ongoing' %}
+        <span class="post__label post__label--schedule">
+          <i class="icon-schedule"></i> Updated {{ story.schedule }}
+        </span>
+        {% endif %}
       </p>
-      <div>{{ story.summary | markdownify }}</div>
+      <div>
+        {{ story.summary | markdownify }}
+      </div>
       <p>
         {% assign words = chaps | map: "content" | join: " " %}
         {% include word-count.html words = words %} words in {{ chaps | size }} chapters, updated on {{ lastChap.date | date: "%b %d, %Y" }}.

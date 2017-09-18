@@ -168,6 +168,9 @@
     .post__label--revision {
       background: #d66;
     }
+    .post__label--schedule {
+      background: #c9c;
+    }
   .post__btn {
     border: 1px solid #99a;
     color: inherit;

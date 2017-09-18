@@ -3,10 +3,9 @@
   medium: novel
   cover: cadd.png
   summary: |
-    UPDATED EVERY WEDNESDAY.
-
     Deb has found a job after years of bumming around, and a night of lone drinking ends at a beautiful woman's home... Has her luck turned around? Or is this suddenly... A paranormal story?
   status: ongoing
+  schedule: every Wednesday
   # luluLink: -
   # amazonLink: -  (all of this only when status == published)
 - title: Over & Done With
@@ -18,5 +17,6 @@
 
     Story inspired by my stay at a fellow writer's place, who does grimy true crime stories. I felt the need to take his kind of characters out of there and into a happier life. :)
   status: completed
+  schedule: every Sunday
   # luluLink: -
   # amazonLink: -  (all of this only when status == published)

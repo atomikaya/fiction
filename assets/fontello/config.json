@@ -65,6 +65,12 @@
       "css": "go",
       "code": 59401,
       "src": "entypo"
+    },
+    {
+      "uid": "8663320a860b00f26e94d3d15c9ba99a",
+      "css": "schedule",
+      "code": 59402,
+      "src": "entypo"
     }
   ]
 }
