@@ -20,7 +20,9 @@ layout: default
     </div>
   </div>
   {% include chapter-pagination.html %}
-  <div class="post__content post__content--full">
+  {% include follow-menu.html %}
+  {% include share-buttons.html %}
+  <div class="post__content post__content--{{ story.medium }}">
     {{ content }}
   </div>
   {% if page.afterword %}
@@ -30,9 +32,7 @@ layout: default
   {% endif %}
   {% include chapter-pagination.html %}
 </div>
-<div class="follow site__side follow--side">
-  {% include follow-menu.html %}
-</div>
+{% include follow-menu.html %}
 {% include share-buttons.html %}
 {% if jekyll.environment == "production" %}
 <div id="disqus_thread"></div>
