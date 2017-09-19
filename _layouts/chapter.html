@@ -15,7 +15,7 @@ layout: default
         <span class="post__label post__label--{{ story.status }}"><i class="icon-{{ story.status }}"></i> {{ story.status }} {{ story.medium }}</span>{% if story.status != "published" %}{% if page.version > 0 %}<span class="post__label post__label--revision"><i class="icon-revision"></i> revision #{{ page.version }}</span>{% else %}<span class="post__label post__label--new"><i class="icon-new"></i> new chapter</span>{% endif %}{% endif %}
       </p>
       {% if page.summary %}
-        {{ page.summary | prepend: "*Previously:* " | markdownify }}
+        {{ page.summary | markdownify }}
       {% endif %}
     </div>
   </div>
