@@ -11,15 +11,9 @@
     max-width: 360px;
     width: 90%;
   }
-    .site__pagination,
-    .site__share {
-      align-items: baseline;
-      display: flex;
-      justify-content: space-around;
+    .site__page-number {
+      display: none;
     }
-      .site__page-number {
-        display: none;
-      }
   .site__footer {
     font-size: 80%;
     padding: 2ch 0;
@@ -174,10 +168,14 @@
     .post__label--revision {
       background: #d66;
     }
+    .post__label--schedule {
+      background: #c9c;
+    }
   .post__btn {
     border: 1px solid #99a;
     color: inherit;
     display: block;
+    flex: 0;
     padding: 1ch 2ch;
     text-align: center;
     text-decoration: none;
@@ -211,6 +209,15 @@
         background: none;
         border-color:#99a;
       }
+  .post__summary,
+  .post__afterword {
+    background: #dde;
+    border: 1px solid #99a;
+    padding: 1ch 3ch;
+  }
+  .post__afterword {
+    border-top: none;
+  }
   .post__content {
     color: #445;
     font: 80% Libre Baskerville, serif;
@@ -233,6 +240,24 @@
         text-align: center;
         top: -1ch;
       }
+
+.toc__list.toc__list--standalone {
+  padding: 0;
+}
+  .toc__list--standalone .post__summary + .post__summary,
+  .toc__list--standalone .toc__item {
+    border-top: none;
+  }
+    .toc__list--standalone :target {
+      background: #eef;
+    }
+    .toc__list--standalone :target ~ li .toc__summary {
+      display: none;
+    }
+    .toc__list--standalone :target ~ li .toc__item:hover + .toc__summary,
+    .toc__list--standalone :target ~ li .toc__item:focus + .toc__summary {
+      display: block;
+    }
 
 /* style for third-party apps */
 
@@ -269,6 +294,12 @@ ul.share-buttons .sr-only {
     max-width: none;
     width: 600px;
   }
+    .site__pagination,
+    .site__share {
+      align-items: baseline;
+      display: flex;
+      justify-content: space-around;
+    }
     .site__side {
       text-align: inherit;
     }

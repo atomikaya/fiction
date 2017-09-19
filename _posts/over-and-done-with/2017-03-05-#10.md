@@ -8,6 +8,9 @@ version: 0
 
 layout: chapter
 categories: over-and-done-with 10
+
+summary: |
+  After a day that felt like a camping trip, Andy managed to scare Josh into being more serious. They are preparing to cross the channel.
 ---
 The hard part for Andy was that name. It just started as a silly game for Sp — Josh, he was sure of it. Now it had turned serious. It stressed Andy out because it seemed *so childish*, like many of the other things that Josh did. He wasn't sure they had enough leeway to get away with playing spies.
 
@@ -29,7 +32,7 @@ They were approaching London by the east coast. They figured there was no need t
 
 They kept their eyes peeled, stopping sometimes for questions, to no avail. In the smartphone era, no one needed Internet cafes anymore. The libraries were closed for the night. Their last hope was youth hostels.
 
-“What a waste of money when we've got proper mattresses right here,” said Josh. Andy secretely rejoiced.
+“What a waste of money when we've got proper mattresses right here,” said Josh. Andy secretly rejoiced.
 
 He had given up the driver's seat when the traffic got rough and was warming himself up in his own favorite way, feeding on vodka like if it was mother's milk. Josh was a bit weirded out by it. Where did all that booze come from?
 

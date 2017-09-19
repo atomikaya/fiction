@@ -3,7 +3,16 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <title>{% if page.title %}{% if page.story %}{% assign story = site.data.stories | where: "url", page.story | first %}{{ story.title }} #{{ page.number }}: {% endif %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+    <title>
+      {% if page.story %}
+        {% assign story = site.data.stories | where: "url", page.story | first %}
+        {{ story.title }}
+        {% if page.number %}#{{ page.number }}: {% endif %}
+      {% endif %}
+      {% if page.title %}{{ page.title }}{% endif %}
+      {% if page.path != "index.html" %} — {% endif %}
+      {{ site.title }}
+    </title>
     <meta name="description" content="{{ site.description }}"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300|Libre+Baskerville|Montserrat:300,500" rel="stylesheet"/>
     <link rel="stylesheet" href="/assets/fontello/css/fontello-embedded.css"/>
@@ -23,7 +32,7 @@
       </a>
       <nav class="tabs">{% if page.path == "index.html" %}
         <h1 class="tabs__item tabs__item--active">Latest activity</h1>{% else %}
-        <a href="/" class="tabs__item">Latest activity</a>{% endif %}{% if page.path == "stories.md" %}
+        <a href="/" class="tabs__item">Latest activity</a>{% endif %}{% if page.path == "stories/index.md" %}
         <h1 class="tabs__item tabs__item--active">Stories</h1>{% else %}
         <a href="/stories/" class="tabs__item">Stories</a>{% endif %}{% if page.path == "readme.md" %}
         <h1 class="tabs__item tabs__item--active">About me</h1>{% else %}

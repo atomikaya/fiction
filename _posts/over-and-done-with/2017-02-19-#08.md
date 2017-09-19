@@ -8,6 +8,9 @@ version: 0
 
 layout: chapter
 categories: over-and-done-with 8
+
+summary: |
+  Andy just found out that Spanky is almost out of money: not the best context to make a getaway. He gets mad and goes shopping for necessities on his own.
 ---
 Andy took his time buying the daily necessities: sandwiches and canned food, toilet paper, dish-washing liquid… Time was what he needed the most. Several times while shopping he stopped to take a deep breath and sigh. Spanky and his antics. He should have known things were going *too* smoothly. He grabbed cookies in the breakfast department.
 

@@ -1,0 +1,40 @@
+---
+layout: default
+---
+{% assign story = site.data.stories | where: "url", page.story | first %}
+{% assign chaps = site.posts | where: "story", page.story | sort: 'number', 'first' %}
+{% assign lastChap = chaps | first %}
+<div id="header" class="post__details">
+  <div class="post__item">
+    <img src="/assets/covers/{{ story.cover }}" alt="{{ story.title }} cover" class="post__cover">
+    <div class="post__text">
+      <h2 class="post__title">
+        {{ story.title }}
+      </h2>
+      <p>
+        {% assign words = chaps | map: "content" | join: " " %}
+        {% include word-count.html words = words %} words in {{ chaps | size }} chapters, updated on {{ lastChap.date | date: "%b %d, %Y" }}.
+      </p>
+      <p>
+        <span class="post__label post__label--{{ story.status }}"><i class="icon-{{ story.status }}"></i> {{ story.status }} {{ story.medium }}</span>
+      </p>
+    </div>
+  </div>
+  <ul class="toc__list toc__list--standalone">
+    {% for chap in chaps %}
+      <li class="post__summary" id="ch{{ chap.number }}">
+        <a href="{{ chap.url }}#header" class="toc__item">
+          #{{ chap.number }}: {{ chap.title }}
+        </a>
+        {% if chap.summary %}
+          <div class="toc__summary">
+            {{ chap.summary | markdownify }}
+          </div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+<div class="follow site__side follow--side">
+  {% include follow-menu.html %}
+</div>
