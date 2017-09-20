@@ -3,6 +3,7 @@ layout: default
 ---
 <div class="post__list">{% for post in paginator.posts %}
   {% assign story = site.data.stories | where: "url", post.story | first %}
+  {% assign newest = site.posts | where: "story", post.story | sort: 'number', 'first' | last %}
   <div class="post__item">
     <img src="/assets/covers/{{ story.cover }}" alt="{{ story.title }} cover" class="post__cover">
     <div class="post__text">
@@ -11,7 +12,15 @@ layout: default
       </h2>
       <p>{% include word-count.html words = post.content %} words on {{ post.date | date: "%b %d, %Y" }}.</p>
       <p>
-        <span class="post__label post__label--{{ story.status }}"><i class="icon-{{ story.status }}"></i> {{ story.status }} {{ story.medium }}</span>{% if story.status != "published" %}{% if post.version > 0 %}<span class="post__label post__label--revision"><i class="icon-revision"></i> revision #{{ post.version }}</span>{% else %}<span class="post__label post__label--new"><i class="icon-new"></i> new chapter</span>{% endif %}{% endif %}
+        <span class="post__label post__label--{{ story.status }}"><i class="icon-{{ story.status }}"></i> {{ story.status }} {{ story.medium }}</span>
+        {% if story.status != "published" %}
+        {% if post.version > 0 %}
+        <span class="post__label post__label--revision"><i class="icon-revision"></i> revision #{{ post.version }}</span>
+        {% endif %}
+        {% if post.number == newest.number %}
+        <span class="post__label post__label--new"><i class="icon-new"></i> latest chapter</span>
+        {% endif %}
+        {% endif %}
       </p>
       <a href="{{ post.url }}#header" class="post__btn">Read now <i class="icon-go"></i></a>
       <a href="/stories/{{ story.url }}/#ch{{ post.number }}" class="post__btn">Chapter list</a>
