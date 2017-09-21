@@ -3,6 +3,7 @@
 {% assign shareBody = "New chapter is out!
 " | append: shareURL %}
 <ul class="share-buttons site__share">
+  <li><h3 class="side__title">Share me</h3></li>
   <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ shareURL | cgi_escape }}&t=" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="/assets/flat_web_icon_set/color/Facebook.png"></a></li>
   <li><a href="https://twitter.com/intent/tweet?source={{ shareURL | cgi_escape }}&text={{ shareTitle | append: shareBody | cgi_escape }}" target="_blank" title="Tweet"><img alt="Tweet" src="/assets/flat_web_icon_set/color/Twitter.png"></a></li>
   <li><a href="https://plus.google.com/share?url={{ shareURL | cgi_escape }}" target="_blank" title="Share on Google+"><img alt="Share on Google+" src="/assets/flat_web_icon_set/color/Google+.png"></a></li>
