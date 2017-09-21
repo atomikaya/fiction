@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
-{% assign page_offset = paginator.page | minus: 1 | times: paginator.per_page %}
-{% assign page_posts = site.posts | sort: 'date' | reverse | slice: page_offset, paginator.per_page %}
-<div class="post__list">{% for post in page_posts %}
+<div class="post__list">{% for post in paginator.posts %}
   {% assign story = site.data.stories | where: "url", post.story | first %}
   {% assign newest = site.posts | where: "story", post.story | sort: 'number', 'first' | last %}
   <div class="post__item">
