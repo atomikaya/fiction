@@ -3,6 +3,7 @@ layout: default
 ---
 {% assign story = site.data.stories | where: "url", page.story | first %}
 {% assign chaps = site.posts | where: "story", page.story | sort: 'number', 'first' %}
+{% assign newest = chaps | last %}
 <div id="header" class="post__details">
   <div class="post__item">
     <img src="/assets/covers/{{ story.cover }}" alt="{{ story.title }} cover" class="post__cover">
@@ -12,16 +13,23 @@ layout: default
       </h2>
       <p>{% include word-count.html words = content %} words on {{ page.date | date: "%b %d, %Y" }}.</p>
       <p>
-        <span class="post__label post__label--{{ story.status }}"><i class="icon-{{ story.status }}"></i> {{ story.status }} {{ story.medium }}</span>{% if story.status != "published" %}{% if page.version > 0 %}<span class="post__label post__label--revision"><i class="icon-revision"></i> revision #{{ page.version }}</span>{% else %}<span class="post__label post__label--new"><i class="icon-new"></i> new chapter</span>{% endif %}{% endif %}
+        <span class="post__label post__label--{{ story.status }}"><i class="icon-{{ story.status }}"></i> {{ story.status }} {{ story.medium }}</span>
+        {% if story.status != "published" %}
+        {% if page.version > 0 %}
+        <span class="post__label post__label--revision"><i class="icon-revision"></i> revision #{{ page.version }}</span>
+        {% elsif newest.number == page.number %}
+        <span class="post__label post__label--new"><i class="icon-new"></i> latest chapter</span>
+        {% endif %}
+        {% endif %}
       </p>
       {% if page.summary %}
         {{ page.summary | markdownify }}
       {% endif %}
     </div>
   </div>
-  {% include chapter-pagination.html %}
   {% include follow-menu.html %}
   {% include share-buttons.html %}
+  {% include chapter-pagination.html %}
   <div class="post__content post__content--{{ story.medium }}">
     {{ content }}
   </div>

@@ -27,19 +27,21 @@
     text-align: center;
   }
   .site__share {
-    align-items: baseline;
+    align-items: inherit;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 4ch;
   }
 
 .side__title {
   font: 140% Roboto Slab, serif;
   font-weight: 100;
-  margin: 1ch 0 0;
+  margin: 0;
 }
 .side__comment {
+  font: italic 110% Libre Baskerville, serif;
   text-align: center;
-  margin-bottom: 2ch;
+  padding: 3ch 0 0;
 }
 
 .card__link {
@@ -87,7 +89,7 @@
 }
   .follow__item {
     color: inherit;
-    font: 90% Montserrat, sans-serif;
+    font: 120% Montserrat, sans-serif;
     font-weight: 300;
     text-decoration: none;
     text-transform: uppercase;
