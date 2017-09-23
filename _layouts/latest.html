@@ -2,6 +2,17 @@
 layout: default
 ---
 <div class="post__list">{% for post in paginator.posts %}
+  {% if post.layout == 'news' %}
+  <div class="post__item post__item--news">
+    <div class="post__text">
+      <h2 class="post__title">{{ post.date | date: "%b %d, %Y" }} : {{ post.title }}</h2>
+      <p>
+        {{ post.content | truncatewords: 25 }}
+      </p>
+      <a href="{{ post.url }}" class="post__btn">Read now <i class="icon-go"></i></a>
+    </div>
+  </div>
+  {% else %}
   {% assign story = site.data.stories | where: "url", post.story | first %}
   {% assign newest = site.posts | where: "story", post.story | sort: 'number', 'first' | last %}
   <div class="post__item">
@@ -25,7 +36,7 @@ layout: default
       <a href="{{ post.url }}#header" class="post__btn">Read now <i class="icon-go"></i></a>
       <a href="/stories/{{ story.url }}/#ch{{ post.number }}" class="post__btn">Chapter list</a>
     </div>
-  </div>{% endfor %}
+  </div>{% endif %}{% endfor %}
 </div>
 <div class="site__pagination">
   {% if paginator.previous_page %}

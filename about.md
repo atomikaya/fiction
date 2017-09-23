@@ -1,6 +1,7 @@
 ---
 layout: news
-title: About me
+title: Who am I? (really)
+
 permalink: /about/
 ---
 {{ site.description }}

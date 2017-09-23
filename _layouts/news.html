@@ -3,6 +3,10 @@ layout: default
 ---
 <div id="header" class="post__details">
   <div class="post__content post__content--news">
+    <h2 class="post__title">
+      {% if page.date %}{{ page.date | date: "%b %d, %Y" }} : {% endif %}
+      {{ page.title }}
+    </h2>
     {{ content }}
   </div>
 </div>
