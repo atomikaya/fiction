@@ -141,7 +141,7 @@
   }
     .post__item.post__item--news {
       background: #eef;
-      margin: 4ch 0;
+      border-left-width: 1ch;
     }
   .post__title {
     font: 130% Roboto Slab, serif;
