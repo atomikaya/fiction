@@ -137,11 +137,13 @@
     background: #dde;
     border: 1px solid #99a;
     margin-bottom: -1px;
-    padding: 2ch;
   }
     .post__item.post__item--news {
       background: #eef;
       border-left-width: 1ch;
+    }
+    .post__text {
+      padding: 2ch;
     }
   .post__title {
     font: 130% Roboto Slab, serif;
@@ -149,11 +151,12 @@
     text-align: center;
   }
   .post__cover {
-    border: 1px solid #223;
-    border-width: 1px 1px 5px;
+    background-position: center;
+    background-size: cover;
     display: block;
     height: 100px;
-    margin: 1.5ch auto;
+    margin: 0;
+    width: 100%;
   }
   .post__label,
   .post__btn {
@@ -347,6 +350,7 @@ ul.share-buttons .sr-only {
 
   .post__item {
     display: flex;
+    align-items: stretch;
   }
   .post__title {
     font-size: 180%;
@@ -354,8 +358,9 @@ ul.share-buttons .sr-only {
     text-align: left;
   }
   .post__cover {
-    height: 160px;
-    margin: 1.5ch 2ch 0 0;
+    flex: none;
+    height: auto;
+    width: 200px;
   }
   .post__btn {
     display: inline-block;
