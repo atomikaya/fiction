@@ -251,6 +251,16 @@
       border: 1px solid #99a;
       padding: 4ch 4ch;
     }
+    .post__content--comic {
+      padding: 0;
+    }
+      .post__content--comic img {
+        display: block;
+        max-width: 100%;
+      }
+      .post__content--comic p {
+        margin: 0;
+      }
     .post__content hr {
       border: none;
       padding: 4ch 0;
@@ -366,7 +376,8 @@ ul.share-buttons .sr-only {
     display: inline-block;
     text-align: left;
   }
-  .post__content {
+  .post__content--news,
+  .post__content--novel {
     font-size: 100%;
     padding: 2ch 1ch;
   }
