@@ -1,3 +1,16 @@
+- title: The Usual Stars
+  url: the-usual-stars
+  medium: comic
+  cover: tus.jpg
+  summary: |
+    Meet Leejai Flowers, your ordinary space carrier employee. Life as a carrier is pretty boring: laser fights with hole worms, racing with pirates and the occasional emergency landing on a mysterious planet.
+
+    When you've lived for centuries, you've feel like you've seen everything.
+  status: ongoing
+  schedule: on Sunday, every two weeks
+  # luluLink: -
+  # amazonLink: -  (all of this only when status == published)
+
 - title: Cock-a-Doodle-Doom
   url: cock-a-doodle-doom
   medium: novel
@@ -19,18 +32,5 @@
     Story inspired by my stay at a fellow writer's place, who does grimy true crime stories. I felt the need to take his kind of characters out of there and into a happier life. :)
   status: completed
   schedule: every Sunday
-  # luluLink: -
-  # amazonLink: -  (all of this only when status == published)
-
-- title: The Usual Stars
-  url: the-usual-stars
-  medium: comic
-  cover: tus.jpg
-  summary: |
-    Meet Leedai Flowers, your ordinary space carrier employee. Life as a carrier is pretty boring: laser fights with hole worms, racing with pirates and the occasional emergency landing on a mysterious planet.
-
-    On the plus side, they have good dental coverage, which is good news for a vampire like Leedai.
-  status: ongoing
-  schedule: on Sunday, every two weeks
   # luluLink: -
   # amazonLink: -  (all of this only when status == published)
