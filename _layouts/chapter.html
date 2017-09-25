@@ -12,7 +12,12 @@ layout: default
       <h2 class="post__title">
         {{ story.title }} #{{ page.number }}: {{ page.title }}
       </h2>
-      <p>{% include word-count.html words = content %} words on {{ page.date | date: "%b %d, %Y" }}.</p>
+      <p>
+        {% if story.medium == 'comic' %}{{ page.pages }} pages
+        {% else %}{% include word-count.html words = content %} words
+        {% endif %}
+        on {{ page.date | date: "%b %d, %Y" }}.
+      </p>
       <p>
         <span class="post__label post__label--{{ story.status }}"><i class="icon-{{ story.status }}"></i> {{ story.status }} {{ story.medium }}</span>
         {% if story.status != "published" %}
