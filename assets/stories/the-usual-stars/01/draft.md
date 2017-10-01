@@ -20,7 +20,7 @@ we see it, a cloud of something, a nebulae or a miniature galaxy or something. m
 
 He enjoys his bath, flaps around, plays throwing waves in space. He's more listening than talking now, and getting bored in a very matter-of-fact way.
 
-> Yeah, sure. Well. We'll talk at the office. Yeah. Have a fruitful cycle too.
+> Yeah, sure. Well. We'll talk at the office. Yeah. Have a good tide.
 
 He makes a sort of snapping gesture to close communication and relaxes, even going 'underwater' for a time. We look through his eyes at the beautiful landscape. Soon he can't stand the silence and he starts a fission jazz mix. He notices a holo sign indicating view of the nitric falls. When he goes there he finds a shape crouched on the ground, its face iced over. It backs of running.
 
