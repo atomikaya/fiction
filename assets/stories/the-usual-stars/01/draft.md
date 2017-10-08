@@ -18,6 +18,8 @@ we see it, a cloud of something, a nebulae or a miniature galaxy or something. m
 
 > … Not sure what it is but it's beautiful. Quite the light show.
 
+
+
 He enjoys his bath, flaps around, plays throwing waves in space. He's more listening than talking now, and getting bored in a very matter-of-fact way.
 
 > Yeah, sure. Well. We'll talk at the office. Yeah. Have a good tide.
