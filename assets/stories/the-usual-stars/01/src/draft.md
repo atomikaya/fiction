@@ -18,8 +18,6 @@ we see it, a cloud of something, a nebulae or a miniature galaxy or something. m
 
 > … Not sure what it is but it's beautiful. Quite the light show.
 
-
-
 He enjoys his bath, flaps around, plays throwing waves in space. He's more listening than talking now, and getting bored in a very matter-of-fact way.
 
 > Yeah, sure. Well. We'll talk at the office. Yeah. Have a good tide.
@@ -27,6 +25,8 @@ He enjoys his bath, flaps around, plays throwing waves in space. He's more liste
 He makes a sort of snapping gesture to close communication and relaxes, even going 'underwater' for a time. We look through his eyes at the beautiful landscape. Soon he can't stand the silence and he starts a fission jazz mix. He notices a holo sign indicating view of the nitric falls. When he goes there he finds a shape crouched on the ground, its face iced over. It backs of running.
 
 > Security! Someone help, there's a flappin' dead body in the pool area!
+
+> (yeah. that's me.)
 
 Some rocks fly in low gravity, one of the hits the body, Leejai. They wake up.
 
