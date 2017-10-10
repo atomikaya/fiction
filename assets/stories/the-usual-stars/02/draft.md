@@ -1,12 +1,18 @@
 Octavia, a mysterious octocat.
 
-Leejai is still on the edge of the nitric falls, waiting for its mysterious visitor.
+Flablo flees screaming, we're still on the iced over Leejai.
 
-> Still, strange place for a meeting. This is a lot shadier than I expected from the paycheck.
+> @leejay : (still not here ?)
+
+The ice breaks and Leejai emerges. They can't speak cause void of space and no speaker but they think out loud ;D
+
+Leejai is on the edge of the nitric falls, waiting for its mysterious visitor.
+
+> @leejai : Maybe I should just go? This meeting seems a lot shadier than the paycheck implied.
 
 They're visibly annoyed and rub their arms in order not to freeze again.
 
-> Should I just bail? It's been half a hour already.
+> It's been half a hour already. Uuh, I wish I hadn't pawned my void suit.
 
 We zoom out from them and onto a cliff where a sort of drone is waiting. Someone is riding it like a bike. They go down and land near Leejai. They have seen them coming already.
 
