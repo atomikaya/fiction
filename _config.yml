@@ -15,7 +15,8 @@ follow:
 #  patreon:
 - label: Wattpad
   url: http://wattpad.com/user/atomikaya
-#  webtoon:
+- label: Webtoon
+  url: http://www.webtoons.com/search?searchMode=AUTHOR&keyword=atomikaya
 - label: My atom feed
   url: /feed.xml
 
