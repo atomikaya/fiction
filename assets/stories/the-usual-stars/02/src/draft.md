@@ -20,7 +20,7 @@ They're like a sort of octopus cat : eight legs, no fur, big head, stealthy. Lee
 
 > You're late.
 
-> I was waiting for the others to leave. Couldn't you have worn a suit like everyone else? You're attracting attention.
+> I was waiting for the others to leave. Couldn't you wear a suit like everyone else? You're attracting attention.
 
 The octocat is displeased, slightly haughty. Leejai feels just as nice.
 
