@@ -1,7 +1,7 @@
 - title: The Usual Stars
   url: the-usual-stars
   medium: comic
-  cover: tus.jpg
+  cover: tus.png
   summary: |
     Meet Leejai Flowers, your ordinary space carrier employee. Life as a carrier is pretty boring: laser fights with hole worms, racing with pirates and the occasional emergency landing on a mysterious planet.
 
@@ -17,7 +17,7 @@
   cover: cadd.png
   summary: |
     Deb has found a job after years of bumming around, and a night of lone drinking ends at a beautiful woman's home... Has her luck turned around? Or is this suddenly... A paranormal story?
-  status: ongoing
+  status: completed
   schedule: every Wednesday
   # luluLink: -
   # amazonLink: -  (all of this only when status == published)
