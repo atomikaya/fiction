@@ -8,7 +8,7 @@ The ice breaks and Leejai emerges. They can't speak cause void of space and no s
 
 Leejai is on the edge of the nitric falls, waiting for its mysterious visitor.
 
-> @leejai : Maybe I should just go? This meeting seems a lot shadier than the paycheck implied.
+> @leejai : Maybe I should just go? I'm gonna be all brittle when I move.
 
 They're visibly annoyed and rub their arms in order not to freeze again.
 
