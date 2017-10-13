@@ -8,7 +8,7 @@ The ice breaks and Leejai emerges. They can't speak cause void of space and no s
 
 Leejai is on the edge of the nitric falls, waiting for its mysterious visitor.
 
-> @leejai : Maybe I should just go? I'm gonna be all brittle when I move.
+> @leejai : Maybe I should just go? I'm gonna be all brittle.
 
 They're visibly annoyed and rub their arms in order not to freeze again.
 
@@ -28,7 +28,7 @@ The octocat is displeased, slightly haughty. Leejai feels just as nice.
 
 The octocat shows a small package, the size of a big book.
 
-> Well. Anyway. This needs to be delivered before two days to Ash Grozenfeld of the Itnis Peninsula. The details are on the box.
+> Well. Anyway. This needs to be delivered before two days to Ash Grozenfeld of the Itnis System. The details are on the box.
 
 > Yeah, that's what parcels are for. Anything else? Why didn't you just go through a mainstream mail service if what you need is speed?
 
