@@ -2,7 +2,7 @@ Octavia, a mysterious octocat.
 
 Flablo flees screaming, we're still on the iced over Leejai.
 
-> @leejay : (still not here ?)
+> @leejai : (still not here ?)
 
 The ice breaks and Leejai emerges. They can't speak cause void of space and no speaker but they think out loud ;D
 
