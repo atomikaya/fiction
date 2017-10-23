@@ -20,17 +20,27 @@ They're like a sort of octopus cat : eight legs, no fur, big head, stealthy. Lee
 
 > You're late.
 
+6
+
 > I was waiting for the others to leave. Couldn't you wear a suit like everyone else? You're attracting attention.
 
 The octocat is displeased, slightly haughty. Leejai feels just as nice.
 
 > I'm part of a shipping service, not a spy agency and I'm on a budget. I'm not going over my fees because you want me to dress up.
 
+7
+
 The octocat shows a small package, the size of a big book.
 
 > Well. Anyway. This needs to be delivered before two days to Ash Grozenfeld of the Itnis System. The details are on the box.
 
-> Yeah, that's what parcels are for. Anything else? Why didn't you just go through a mainstream mail service if what you need is speed?
+> Yeah, that's what parcels are for. Anything else?
+
+8
+
+> You know everything you need to.
+
+> Why didn't you just go through a mainstream mail service if what you need is speed?
 
 > I need speed *and* discretion.
 
@@ -38,7 +48,9 @@ The octocat shows a small package, the size of a big book.
 
 The octocat looks at them, sizing them up.
 
-> Are you Leejai Flowers?
+9
+
+> Are you really Leejai Flowers?
 
 > Yes.
 
