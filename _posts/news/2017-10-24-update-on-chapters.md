@@ -14,7 +14,7 @@ But it's not a sprint. It's a marathon.
 
 This week's chapter should be out tonight, only one page left to draw. In the meantime, have a sneak peek!
 
-![01](assets/stories/the-usual-stars/02/01.png)
-![01.5](assets/stories/the-usual-stars/02/01-5.png)
+![01](/assets/stories/the-usual-stars/02/01.png)
+![01.5](/assets/stories/the-usual-stars/02/01-5.png)
 
 Thanks for reading! ♥
