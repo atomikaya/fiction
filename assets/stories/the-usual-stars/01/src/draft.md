@@ -26,6 +26,8 @@ He makes a sort of snapping gesture to close communication and relaxes, even goi
 
 > Security! Someone help, there's a flappin' dead body in the pool area!
 
+> (yeah. that's me.)
+
 Some rocks fly in low gravity, one of the hits the body, Leejai. They wake up.
 
 > What?
