@@ -70,7 +70,7 @@ We center back on Leejai as the conversation continues in the background.
 ---
 ## 8
 
-> (Still, I wonder why that felinopod needed my services so much... Or how she knew I am a class 3 immortal.)
+> (Still, I wonder why that felinopod needed my services so much... Or how she knew that I'm a class 3 immortal.)
 
 Leejai goes over the mail Octavia sent. They're worried.
 
