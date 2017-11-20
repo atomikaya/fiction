@@ -12,7 +12,7 @@ pays while still looking at gui
 
 menus and interfaces
 
-> I want to know why I've been *handed* a package without explanations. I'm joining the live stream and the delivery info.
+> I want to know why I've been *handed* a package without explanations. I'm including the live stream of the meeting and the delivery info, so check that out.
 
 ## 3
 
