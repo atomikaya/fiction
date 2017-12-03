@@ -1222,9 +1222,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98678894"
-     inkscape:cx="933.18248"
-     inkscape:cy="-223.50686"
+     inkscape:zoom="0.69776515"
+     inkscape:cx="338.43991"
+     inkscape:cy="418.23511"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="false"
@@ -2623,7 +2623,7 @@
          inkscape:connector-curvature="0"
          id="path1508"
          d="m 216.13664,241.04239 c 3.30301,5.56958 8.21933,9.05742 14.7258,6.17533 3.88177,-2.63618 6.87024,-8.66297 10.45056,-9.02549 0.53132,13.06946 4.31862,23.70944 4.27523,37.052 1.28392,6.80426 2.79208,17.0454 0.95005,22.3262 -5.17344,-1.06324 -13.14256,1.70211 -18.526,-1.9001 -8.54354,1.74454 -13.53287,-2.84009 -10.45056,-10.92559 -1.62856,-9.80923 1.36604,-21.30086 -2.85015,-29.45158 -0.82974,-6.06915 3.13189,-9.65927 1.42507,-14.25077 z"
-         style="fill:#ffffff;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="fill:#944315;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <path
          inkscape:connector-curvature="0"
          id="path1510"
@@ -3005,7 +3005,7 @@
          inkscape:connector-curvature="0"
          id="path1508-6"
          d="m 216.13664,241.04239 c 3.30301,5.56958 8.21933,9.05742 14.7258,6.17533 3.88177,-2.63618 6.87024,-8.66297 10.45056,-9.02549 0.53132,13.06946 4.31862,23.70944 4.27523,37.052 1.28392,6.80426 2.79208,17.0454 0.95005,22.3262 -5.17344,-1.06324 -13.14256,1.70211 -18.526,-1.9001 -8.54354,1.74454 -13.53287,-2.84009 -10.45056,-10.92559 -1.62856,-9.80923 1.36604,-21.30086 -2.85015,-29.45158 -0.82974,-6.06915 3.13189,-9.65927 1.42507,-14.25077 z"
-         style="fill:#ffffff;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="fill:#944315;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <path
          inkscape:connector-curvature="0"
          id="path1510-7"
@@ -4064,7 +4064,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="formats"
-     style="display:inline">
+     style="display:none">
     <rect
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5612"
