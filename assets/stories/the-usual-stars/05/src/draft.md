@@ -19,8 +19,9 @@ we see inside of spaceship, living quarters, holo forest, they find out felinopo
   (falls and flopw in leejai's arms)
   - ugg you never take care of yourself and I'm too exhausted
   - bad day?
-  - not bad, just... busy. you know, the forest theme really is working wonders on patients. I'm so grateful to max for figuring that out.
+  - not bad, just... busy. you know, the forest theme really is working wonders on patients.
 7. they chill in the clearing
+  - I'm so grateful to max for figuring that out.
   - I'll be sure to tell him.
   - are you in business with him again? nothing shady, right?
   - just a security check on a client, I promise.
