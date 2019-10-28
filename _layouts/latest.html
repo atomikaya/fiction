@@ -9,14 +9,14 @@ layout: default
       <p>
         {{ post.content | truncatewords: 25 }}
       </p>
-      <a href="{{ post.url }}" class="post__btn">Read now <i class="icon-go"></i></a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="post__btn">Read now <i class="icon-go"></i></a>
     </div>
   </div>
   {% else %}
   {% assign story = site.data.stories | where: "url", post.story | first %}
   {% assign newest = site.posts | where: "story", post.story | sort: 'number', 'first' | last %}
   <div class="post__item">
-    <div style="background-image: url(/assets/covers/{{ story.cover }})"
+    <div style="background-image: url({{ site.baseurl }}/assets/covers/{{ story.cover }})"
       class="post__cover"></div>
     <div class="post__text">
       <h2 class="post__title">
@@ -39,20 +39,20 @@ layout: default
         {% endif %}
         {% endif %}
       </p>
-      <a href="{{ post.url }}#header" class="post__btn">Read now <i class="icon-go"></i></a>
-      <a href="/stories/{{ story.url }}/#ch{{ post.number }}" class="post__btn">Chapter list</a>
+      <a href="{{ site.baseurl }}{{ post.url }}#header" class="post__btn">Read now <i class="icon-go"></i></a>
+      <a href="{{ site.baseurl }}/stories/{{ story.url }}/#ch{{ post.number }}" class="post__btn">Chapter list</a>
     </div>
   </div>{% endif %}{% endfor %}
 </div>
 <div class="site__pagination">
   {% if paginator.previous_page %}
-  <a href="{{ paginator.previous_page_path }}" class="post__btn post__btn--nav previous">newer</a>
+  <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="post__btn post__btn--nav previous">newer</a>
   {% else %}
   <span class="post__btn post__btn--nav post__btn--no-link previous">newer</span>
   {% endif %}
   <span class="site__page-number">{{ paginator.page }} / {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-  <a href="{{ paginator.next_page_path }}" class="post__btn post__btn--nav next">older</a>
+  <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="post__btn post__btn--nav next">older</a>
   {% else %}
   <span class="post__btn post__btn--nav post__btn--no-link next">older</span>
   {% endif %}
