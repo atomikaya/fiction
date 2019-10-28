@@ -6,7 +6,7 @@ layout: default
 {% assign lastChap = chaps | first %}
 <div id="header" class="post__details">
   <div class="post__item">
-    <img src="/assets/covers/{{ story.cover }}" alt="{{ story.title }} cover" class="post__cover">
+    <img src="{{ site.baseurl }}/assets/covers/{{ story.cover }}" alt="{{ story.title }} cover" class="post__cover">
     <div class="post__text">
       <h2 class="post__title">
         {{ story.title }}
@@ -23,7 +23,7 @@ layout: default
   <ul class="toc__list toc__list--standalone">
     {% for chap in chaps %}
       <li class="post__summary" id="ch{{ chap.number }}">
-        <a href="{{ chap.url }}#header" class="toc__item">
+        <a href="{{ site.baseurl }}{{ chap.url }}#header" class="toc__item">
           #{{ chap.number }}: {{ chap.title }}
         </a>
         {% if chap.summary %}
