@@ -4,7 +4,7 @@ logo: assets/logo.png
 description: >
   English and french author.Regular updates, hopefully fun stories!
   Stay tuned ;)
-baseurl: ""
+baseurl: "/fiction"
 url: "http://atomikaya.github.io"
 permalink: /stories/:categories/
 
