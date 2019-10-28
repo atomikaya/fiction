@@ -6,7 +6,7 @@ layout: default
   {% assign firstChap = chaps | last %}
   {% assign lastChap = chaps | first %}
   <div class="post__item">
-    <div style="background-image: url(/assets/covers/{{ story.cover }})"
+    <div style="background-image: url({{ site.baseurl }}/assets/covers/{{ story.cover }})"
       class="post__cover"></div>
     <div class="post__text">
       <h2 class="post__title">
@@ -39,8 +39,8 @@ layout: default
         in {{ chapCount }} chapter{% if chapCount > 1 %}s{% endif %},
         updated on {{ lastChap.date | date: "%b %d, %Y" }}.
       </p>
-      <a href="{{ firstChap.url }}/#header" class="post__btn">Start reading <i class="icon-go"></i></a>
-      <a href="/stories/{{ story.url }}/#header" class="post__btn">Chapter list</a>
+      <a href="{{ site.baseurl }}{{ firstChap.url }}/#header" class="post__btn">Start reading <i class="icon-go"></i></a>
+      <a href="{{ site.baseurl }}/stories/{{ story.url }}/#header" class="post__btn">Chapter list</a>
     </div>
   </div>{% endfor %}
 </div>
