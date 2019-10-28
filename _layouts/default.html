@@ -15,15 +15,15 @@
     </title>
     <meta name="description" content="{{ site.description }}"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300|Libre+Baskerville|Montserrat:300,500" rel="stylesheet"/>
-    <link rel="stylesheet" href="/assets/fontello/css/fontello-embedded.css"/>
-    <link rel="stylesheet" href="/assets/normalize.css"/>
-    <link rel="stylesheet" href="/assets/theme.css"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/fontello/css/fontello-embedded.css"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/normalize.css"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/theme.css"/>
   </head>
   <body class="site">
     <div class="site__header">
       <a href="/" class="card__link">
         <header class="card">
-          <img src="/assets/logo.png" alt=":)" class="card__badge"/>
+          <img src="{{ site.baseurl }}/assets/logo.png" alt=":)" class="card__badge"/>
           <div class="card__text">
             <h3 class="card__name">atomikaya</h1>
             <p class="card__desc">creates fiction.</p>
@@ -32,11 +32,11 @@
       </a>
       <nav class="tabs">{% if page.path == "index.html" %}
         <h1 class="tabs__item tabs__item--active">Latest activity</h1>{% else %}
-        <a href="/" class="tabs__item">Latest activity</a>{% endif %}{% if page.path == "stories/index.md" %}
+        <a href="{{ site.baseurl }}/" class="tabs__item">Latest activity</a>{% endif %}{% if page.path == "stories/index.md" %}
         <h1 class="tabs__item tabs__item--active">Stories</h1>{% else %}
-        <a href="/stories/" class="tabs__item">Stories</a>{% endif %}{% if page.path == "about.md" %}
+        <a href="{{ site.baseurl }}/stories/" class="tabs__item">Stories</a>{% endif %}{% if page.path == "about.md" %}
         <h1 class="tabs__item tabs__item--active">About me</h1>{% else %}
-        <a href="/about/" class="tabs__item">About me</a>{% endif %}
+        <a href="{{ site.baseurl }}/about/" class="tabs__item">About me</a>{% endif %}
       </nav>
     </div>
     <main class="site__main">
